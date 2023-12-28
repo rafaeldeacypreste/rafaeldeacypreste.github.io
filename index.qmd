@@ -1,0 +1,24 @@
+---
+title: "rafaeldeacypreste.github.io"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
+
+```{r}
+
+# Criar uma distribuição normal com média 0 e desvio padrão 1
+
+x <- rnorm(1000, 0, 1) # 
+
+# Plotar um histograma
+
+hist(x)
+
+
+```
