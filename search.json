@@ -7,6 +7,13 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n# Criar uma distribuição normal com média 0 e desvio padrão 1\n\nx &lt;- rnorm(1000, 0, 1) # \n\n# Plotar um histograma\n\nhist(x)"
   },
   {
+    "objectID": "presentation-demo.html#secondary-topic",
+    "href": "presentation-demo.html#secondary-topic",
+    "title": "Presentation demo",
+    "section": "Secondary topic",
+    "text": "Secondary topic"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
