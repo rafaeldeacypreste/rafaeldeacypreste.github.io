@@ -12,7 +12,7 @@ website:
           - about.qmd
       - text: Presentations
         menu:
-          - presentation-demo.qmd
+          - presentations/presentation-demo.qmd
     logo: images/icon.png
     tools:
       - icon: twitter
@@ -25,6 +25,9 @@ website:
             url: https://github.com/rafaeldeacypreste
       - icon: mailbox
         mailto: rafaeldeacyprestemr@gmail.com
+  page-footer: "MIT License 2023, Rafael de Acypreste." 
+  twitter-card: 
+    creator: "@rafaelramr"
 
 format:
   html:

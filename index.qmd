@@ -1,24 +1,32 @@
 ---
-title: "rafaeldeacypreste.github.io"
+title: "Rafael de Acypreste"
+about:
+  template: solana
+  image: images/home-image-rafael.jpeg
+  links:
+    - icon: twitter
+      href: https://twitter.com/rafaelramr
+    - icon: github
+      href: https://github.com/rafaeldeacypreste
 ---
 
-This is a Quarto website.
+I am PhD in Economics at the University of Brasília, Brazil. Undergrad student in Statistcs.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+These are my personal notes on Statistics, Econometrics, Machine Learning and Data Science. I am also interested in Philosophy of Science, Philosophy of Economics, and Philosophy of Statistics.
 
-```{r}
-1 + 1
-```
+Eu sou Doutor em Economia pela UnB. Graduando em Estatística.
 
-```{r}
+Estas são minhas notas pessoais sobre Estatística, Econometria, Aprendizado de Máquina e Ciência de Dados. Também me interesso por Filosofia da Ciência, Filosofia da Economia e Filosofia da Estatística.
 
-# Criar uma distribuição normal com média 0 e desvio padrão 1
+## Education
 
-x <- rnorm(1000, 0, 1) # 
+University of Brasília, Brasília | Distrito Federal, Brazil |
+PhD in Economics | Mar 2018 - Jan 2022
 
-# Plotar um histograma
+University of Brasília, Brasília | Distrito Federal, Brazil |
+MsC in Law | Mar 2014 - Mar 2016
 
-hist(x)
+## Experience
 
+Research and Statistcs Institute of Federal District (IPEDF, in Portuguese) | Data Scientist | Sept 2023 - present
 
-```
