@@ -2,14 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rafaeldeacypreste.github.io/index.html</loc>
-    <lastmod>2023-12-29T02:27:33.504Z</lastmod>
+    <lastmod>2023-12-30T20:34:35.348Z</lastmod>
   </url>
   <url>
-    <loc>https://rafaeldeacypreste.github.io/about.html</loc>
-    <lastmod>2023-12-29T02:27:33.684Z</lastmod>
+    <loc>https://rafaeldeacypreste.github.io/publications/economics.html</loc>
+    <lastmod>2023-12-30T20:34:35.512Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/publications/law.html</loc>
+    <lastmod>2023-12-30T20:34:35.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/publications/statistics.html</loc>
+    <lastmod>2023-12-30T20:34:35.848Z</lastmod>
   </url>
   <url>
     <loc>https://rafaeldeacypreste.github.io/presentations/presentation-demo.html</loc>
-    <lastmod>2023-12-29T02:27:33.848Z</lastmod>
+    <lastmod>2023-12-30T20:34:36.032Z</lastmod>
   </url>
 </urlset>

@@ -11,7 +11,7 @@
     "href": "index.html#education",
     "title": "Rafael de Acypreste",
     "section": "Education",
-    "text": "Education\nUniversity of Brasília, Brasília | Distrito Federal, Brazil | PhD in Economics | Mar 2018 - Jan 2022\nUniversity of Brasília, Brasília | Distrito Federal, Brazil | MsC in Law | Mar 2014 - Mar 2016"
+    "text": "Education\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Statistcs | Mar 2020 - present\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | PhD in Economics | Mar 2018 - Jan 2022\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | MSc in Law | Mar 2014 - Mar 2016\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Law | Mar 2008 - Mar 2013"
   },
   {
     "objectID": "index.html#experience",
@@ -21,11 +21,25 @@
     "text": "Experience\nResearch and Statistcs Institute of Federal District (IPEDF, in Portuguese) | Data Scientist | Sept 2023 - present"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "publications/economics.html",
+    "href": "publications/economics.html",
+    "title": "Economics",
     "section": "",
-    "text": "I am PhD in Economics at the University of Brasília, Brazil. Undergrad student in Statistcs.\nThese are my personal notes on Statistics, Econometrics, Machine Learning and Data Science. I am also interested in Philosophy of Science, Philosophy of Economics, and Philosophy of Statistics.\nEu sou Doutor em Economia pela UnB. Graduando em Estatística.\nEstas são minhas notas pessoais sobre Estatística, Econometria, Aprendizado de Máquina e Ciência de Dados. Também me interesso por Filosofia da Ciência, Filosofia da Economia e Filosofia da Estatística."
+    "text": "In construction."
+  },
+  {
+    "objectID": "publications/law.html",
+    "href": "publications/law.html",
+    "title": "Law",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "publications/statistics.html",
+    "href": "publications/statistics.html",
+    "title": "Statistics",
+    "section": "",
+    "text": "In construction."
   },
   {
     "objectID": "presentations/presentation-demo.html#secondary-topic",
