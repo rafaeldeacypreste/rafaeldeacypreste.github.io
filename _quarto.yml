@@ -7,9 +7,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: About
+      - text: Publications
         menu:
-          - about.qmd
+          - href: publications/economics.qmd
+            text: Economics
+          - href: publications/law.qmd
+            text: Law
+          - href: publications/statistics.qmd
+            text: Statistics  
       - text: Presentations
         menu:
           - presentations/presentation-demo.qmd
