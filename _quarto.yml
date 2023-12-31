@@ -10,12 +10,12 @@ website:
         text: Home
       - text: Publications
         menu:
-          - href: publications/economics.qmd
-            text: Economics
-          - href: publications/law.qmd
-            text: Law
-          - href: publications/statistics.qmd
-            text: Statistics  
+          - href: publications/papers.qmd
+            text: Papers
+          - href: publications/books.qmd
+            text: Books and Chapters
+          - href: publications/talks.qmd
+            text: Talks and Posters  
       - text: Presentations
         menu:
           - presentations/presentation-demo.qmd
@@ -37,6 +37,7 @@ website:
   page-footer: "MIT License 2023, Rafael de Acypreste." 
   twitter-card: 
     creator: "@rafaelramr"
+  open-graph: true
 
 format:
   html:
