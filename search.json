@@ -35,23 +35,44 @@
     "text": "Applications\nIn construction"
   },
   {
-    "objectID": "publications/economics.html",
-    "href": "publications/economics.html",
-    "title": "Economics",
+    "objectID": "publications/talks.html",
+    "href": "publications/talks.html",
+    "title": "Talks and Posters",
     "section": "",
     "text": "In construction."
   },
   {
-    "objectID": "publications/law.html",
-    "href": "publications/law.html",
-    "title": "Law",
+    "objectID": "publications/papers.html",
+    "href": "publications/papers.html",
+    "title": "Papers",
     "section": "",
     "text": "In construction."
   },
   {
-    "objectID": "publications/statistics.html",
-    "href": "publications/statistics.html",
-    "title": "Statistics",
+    "objectID": "publications/papers.html#economics",
+    "href": "publications/papers.html#economics",
+    "title": "Papers",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "publications/papers.html#statistcs",
+    "href": "publications/papers.html#statistcs",
+    "title": "Papers",
+    "section": "Statistcs",
+    "text": "Statistcs"
+  },
+  {
+    "objectID": "publications/papers.html#law",
+    "href": "publications/papers.html#law",
+    "title": "Papers",
+    "section": "Law",
+    "text": "Law"
+  },
+  {
+    "objectID": "publications/books.html",
+    "href": "publications/books.html",
+    "title": "Books and Chapters",
     "section": "",
     "text": "In construction."
   },
