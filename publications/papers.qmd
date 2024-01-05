@@ -6,16 +6,12 @@ title: "Papers"
 
 ## Economics
 
-Rafael de Acypreste, Maria de Lourdes R. Mollo. *A questão da maquinaria em Ricardo, Marx e Wicksell*. Nova Economia, 31 (02) • May-Aug 2021. <a href="https://doi.org/10.1590/0103-6351/6036" class="button">Go to Paper</a> <a href="papers/machinery-question.pdf" download class="button">Download Paper</a>
-
-## Statistcs
-
-## Law
-
-
+Rafael de Acypreste, Maria de Lourdes R. Mollo. (2021) *A questão da maquinaria em Ricardo, Marx e Wicksell*. Nova Economia, 31 (02) • May-Aug 2021. <a href="https://doi.org/10.1590/0103-6351/6036" class="button">Go to Paper</a> <a href="papers/eco-2021-machinery-question.pdf" download class="button">Download</a>
 
 ## Statistcs
 
 
 
 ## Law
+
+Acypreste, R. de e Costa, A. B. (2016) *Ações de reintegração de posse contra o movimento dos trabalhadores sem teto: dicotomia entre propriedade e direito à moradia*, Revista de Direito da Cidade, 8(4), p. 1825–1867. <a href=" https://doi.org/10.12957/rdc.2016.23595" class="button">Go to Paper</a> <a href="papers/law-2016-direito-moradia.pdf" download class="button">Download</a>
