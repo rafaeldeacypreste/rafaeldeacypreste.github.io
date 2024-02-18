@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rafaeldeacypreste.github.io/index.html</loc>
-    <lastmod>2024-01-05T09:53:23.116Z</lastmod>
-  </url>
-  <url>
     <loc>https://rafaeldeacypreste.github.io/r-notes/r-notes-base.html</loc>
-    <lastmod>2024-01-05T09:53:23.328Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rafaeldeacypreste.github.io/publications/talks.html</loc>
-    <lastmod>2024-01-05T09:53:23.516Z</lastmod>
+    <lastmod>2024-02-18T12:18:45.749Z</lastmod>
   </url>
   <url>
     <loc>https://rafaeldeacypreste.github.io/publications/papers.html</loc>
-    <lastmod>2024-01-05T09:53:23.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rafaeldeacypreste.github.io/publications/books.html</loc>
-    <lastmod>2024-01-05T09:53:23.888Z</lastmod>
+    <lastmod>2024-02-18T12:18:45.742Z</lastmod>
   </url>
   <url>
     <loc>https://rafaeldeacypreste.github.io/presentations/presentation-demo.html</loc>
-    <lastmod>2024-01-05T09:53:24.064Z</lastmod>
+    <lastmod>2024-02-18T12:20:37.681Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/index.html</loc>
+    <lastmod>2024-02-18T12:18:45.740Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/publications/books.html</loc>
+    <lastmod>2024-02-18T12:18:45.741Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/publications/talks.html</loc>
+    <lastmod>2024-02-18T12:18:45.749Z</lastmod>
   </url>
 </urlset>
