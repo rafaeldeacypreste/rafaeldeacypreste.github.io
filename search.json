@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "r-notes/r-notes-base.html",
-    "href": "r-notes/r-notes-base.html",
-    "title": "R notes",
-    "section": "",
-    "text": "In construction."
-  },
-  {
-    "objectID": "r-notes/r-notes-base.html#applications",
-    "href": "r-notes/r-notes-base.html#applications",
-    "title": "R notes",
-    "section": "Applications",
-    "text": "Applications\nIn construction"
+    "objectID": "presentations/presentation-demo.html#secondary-topic",
+    "href": "presentations/presentation-demo.html#secondary-topic",
+    "title": "Presentation demo",
+    "section": "Secondary topic",
+    "text": "Secondary topic\nRemembering and trying to not get mad. last windows chance"
   },
   {
     "objectID": "publications/papers.html",
@@ -42,11 +35,18 @@
     "text": "Law\nAcypreste, R. de e Costa, A. B. (2016) Ações de reintegração de posse contra o movimento dos trabalhadores sem teto: dicotomia entre propriedade e direito à moradia, Revista de Direito da Cidade, 8(4), p. 1825–1867. Go to Paper Download"
   },
   {
-    "objectID": "presentations/presentation-demo.html#secondary-topic",
-    "href": "presentations/presentation-demo.html#secondary-topic",
-    "title": "Presentation demo",
-    "section": "Secondary topic",
-    "text": "Secondary topic\nRemembering"
+    "objectID": "r-notes/r-notes-base.html",
+    "href": "r-notes/r-notes-base.html",
+    "title": "R notes",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "r-notes/r-notes-base.html#applications",
+    "href": "r-notes/r-notes-base.html#applications",
+    "title": "R notes",
+    "section": "Applications",
+    "text": "Applications\nIn construction"
   },
   {
     "objectID": "index.html",
@@ -70,16 +70,16 @@
     "text": "Experience\nResearch and Statistcs Institute of Federal District (IPEDF, in Portuguese) | Data Scientist | Sept 2023 - present"
   },
   {
-    "objectID": "publications/books.html",
-    "href": "publications/books.html",
-    "title": "Books and Chapters",
+    "objectID": "publications/talks.html",
+    "href": "publications/talks.html",
+    "title": "Talks and Posters",
     "section": "",
     "text": "In construction."
   },
   {
-    "objectID": "publications/talks.html",
-    "href": "publications/talks.html",
-    "title": "Talks and Posters",
+    "objectID": "publications/books.html",
+    "href": "publications/books.html",
+    "title": "Books and Chapters",
     "section": "",
     "text": "In construction."
   }
