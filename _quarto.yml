@@ -18,7 +18,7 @@ website:
             text: Talks and Posters  
       - text: Presentations
         menu:
-          - presentations/presentation-demo.qmd
+          - presentations/avaliando-graficos.qmd
       - text: R notes
         menu:
           - r-notes/r-notes-base.qmd

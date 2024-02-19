@@ -1,0 +1,1444 @@
+---
+title: "Conhecendo Gráficos"
+subtitle: "Como apresentar ideias por meio de imagens simples e completas"
+author:
+  - name: Rafael de Acypreste
+    email: rafaeldeacyprestemr@gmail.com
+    url: https://rafaeldeacypreste.github.io/
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: true
+    preview-links: auto
+    scrollable: true
+    logo: images/avatar-rafael.png
+    css: styles.css
+    footer: <https://rafaeldeacypreste.github.io/>
+resources:
+  - demo.pdf
+editor_options: 
+  chunk_output_type: console
+---
+
+## Gráfico eficiente
+
+::: {style="text-align: center; margin-top: 2em; font-size: 1em"}
+Ao final, espero que sejamos capazes de:
+:::
+
+::: {style="text-align: center; margin-top: 1.75em; font-size: 1.2em"}
+::: incremental
+-   Identificar as informações apresentadas em gráficos
+-   Contar histórias com os dados (números) para determinado público
+-   Apresentar dados de forma eficiente
+:::
+:::
+
+## O que trataremos
+
+-   13/01/2023
+
+    -   Razões para se ocupar com visualização de dados
+    -   Relações entre tabelas e gráficos
+    -   Elementos de um bom gráfico
+
+-   27/01/2023
+
+    -   Análise da qualidade dos gráficos
+    -   Avaliar os erros mais comuns
+    -   Apresentar soluções para tais erros
+
+## Combate à cólera na Inglaterra
+
+![](images/john-snow.png){.absolute top="150" left="50" width="1000" height="500"}
+
+::: footer
+["Bad air" John Snow (1813--1858)](https://arcg.is/vCyz), *Father of Epidemiology*. Veja mais em: [Mala Deep](https://uxdesign.cc/3-historical-instances-in-which-data-visualization-saved-humanity-199d9bf6ef17).
+:::
+
+## Escravidão nos EUA
+
+![](images/usa-map.png){.absolute top="50" left="50" width="1000" height="600"}
+
+::: footer
+[1860 Census](https://arcg.is/vCyz), used by President Abraham Lincoln, according to *Francis Bicknell Carpenter*. Veja mais em: [Mala Deep](https://uxdesign.cc/3-historical-instances-in-which-data-visualization-saved-humanity-199d9bf6ef17).
+:::
+
+## Escravidão nos EUA
+
+![](images/Emancipation-proclamation.jpg){.absolute top="50" left="50" width="1000" height="600"}
+
+::: footer
+[First Reading of the Emancipation Proclamation of President Lincoln](https://en.wikipedia.org/wiki/First_Reading_of_the_Emancipation_Proclamation_of_President_Lincoln), painted by *Francis Bicknell Carpenter*. Veja mais em: [Mala Deep](https://uxdesign.cc/3-historical-instances-in-which-data-visualization-saved-humanity-199d9bf6ef17).
+:::
+
+# O que acham destes gráficos?
+
+## Probabilidade de morrer (por sexo)
+
+![](images/chance-morrer.png){.absolute top="100" right="50" width="1000" height="500"}
+
+::: footer
+Veja mais em: [Pointless Graphs](https://www.facebook.com/pointlessGraphs/)
+:::
+
+## Proporção de cada letra do alfabeto
+
+![](images/proportion-alphabet.png){.absolute top="70" right="150" width="800" height="500"}
+
+::: footer
+Veja mais em: [Pointless Graphs](https://www.facebook.com/pointlessGraphs/)
+:::
+
+## Mapa-múndi se o nível dos oceanos subir 10.000 metros
+
+![](images/planet-water.png){.absolute top="150" right="20" width="600" height="600\""}
+
+::: footer
+Veja mais em: [Pointless Graphs](https://www.facebook.com/pointlessGraphs/)
+:::
+
+## Planetas no sistema solar
+
+![](images/planets.png){.absolute top="100" right="50" width="1000" height="500"}
+
+::: footer
+Veja mais em: [Pointless Graphs](https://www.facebook.com/pointlessGraphs/)
+:::
+
+## Anos desde 1990
+
+![](images/anos-1990.png){.absolute top="100" right="50" width="1000" height="500"}
+
+::: footer
+Veja mais em: [Pointless Graphs](https://www.facebook.com/pointlessGraphs/)
+:::
+
+# Por que apresentar dados?
+
+## Nem tudo precisa de um gráfico
+
+::: {style="text-align: center"}
+"*A cafeteria da empresa foi usada por 9 em cada 10 empregados durante o ano fiscal de 1949*"
+:::
+
+![](images/cafeteria.png){.absolute top="250" right="50" width="850" height="400"}
+
+::: footer
+Veja mais em: [Ross Ihaka](https://www.stat.auckland.ac.nz/~ihaka/120/Lectures/lecture03.pdf)
+:::
+
+## Entendendo o contexto {auto-animate="true"}
+
+::: {style="text-align: center; margin-top: 1.75em; font-size: 1.2em"}
+-   Análise [exploratória]{style="color:blue"} *vs* [explanatória]{style="color:red"}
+:::
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+## Entendendo o contexto {auto-animate="true"}
+
+::: {style="text-align: center; margin-top: 1.75em; font-size: 1.2em"}
+-   Análise exploratória *vs* explanatória
+-   Reflita sobre [para quem]{style="color:red"}
+:::
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+## Entendendo o contexto {auto-animate="true"}
+
+::: {style="text-align: center; margin-top: 1.75em; font-size: 1.2em"}
+-   Análise exploratória *vs* explanatória
+-   Reflita sobre para quem, [o que]{style="color:green"}
+:::
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+## Entendendo o contexto {auto-animate="true"}
+
+::: {style="text-align: center; margin-top: 1.75em; font-size: 1.2em"}
+-   Análise exploratória *vs* explanatória
+-   Reflita sobre para quem, o que e [como]{style="color:blue"} planeja apresentar as informações
+:::
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+## Entendendo o contexto {auto-animate="true"}
+
+::: {style="text-align: center; margin-top: 1.75em; font-size: 1.2em"}
+-   Análise exploratória *vs* explanatória
+-   Reflita sobre para quem, o que e como planeja apresentar as informações
+-   Tenha uma ideia em [3 minutos]{style="color:red"} (e uma frase-chave) do que pretende alcançar
+:::
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+
+
+
+```{r}
+
+library(tidyverse)      # Organização das tabelas e elaboração de gráficos
+library(sidrar)         # Acessar dados do IBGE
+library(ggthemes)
+
+
+options(scipen = 999)
+```
+
+
+```{r}
+#| cache: true
+
+## Tabela 6397 - Taxas de desocupação e de subutilização da força de trabalho,
+## na semana de referência, das pessoas de 14 anos ou mais de idade,
+## por grupos de idade
+
+# info_sidra(6397,wb = T)
+desocupacao <- get_sidra(
+  6397,
+  period   = "201904-201904",  # Seleciona trimestres
+  geo      = "Region",         # 5 Regiões Brasileiras
+  variable = c(4099),
+  format   = 2
+)
+
+tabela1 <- desocupacao %>%
+  rename("Desocupacao" = Valor) %>%   # Renomeia a variável de interesse
+  select(`Grande Região`, Trimestre, `Grupo de idade`, Desocupacao)
+
+
+## Tabela 5437 - Rendimento médio real, habitualmente recebido por mês e
+## efetivamente recebido no mês de referência, do trabalho principal e
+## de todos os trabalhos, por grupos de idade 
+
+# info_sidra(5437,wb = T)
+rendimento <- get_sidra(
+  5437,
+  period   = "201904-201904",
+  geo      = "Region",
+  variable = c(5932),
+  format   = 2
+)
+
+tabela2 <- rendimento %>%
+  rename("Rendimento" = Valor) %>%
+  select(`Grande Região`, Trimestre, `Grupo de idade`, Rendimento)
+
+
+## Tabela 6372 - Média de horas habitualmente trabalhadas por semana e
+## efetivamente trabalhadas na semana de referência, no trabalho principal
+## e em todos os trabalhos, das pessoas de 14 anos ou mais de idade,
+## por grupos de idade
+
+#info_sidra(6372,wb = T)
+horas <- get_sidra(
+  6372,
+  period   = "201904-201904",
+  geo      = c("Region"),
+  variable = c(8186),
+  format   = 2
+)
+
+tabela3 <- horas %>%
+  rename("Horas" = Valor) %>%
+  select(`Grande Região`, Trimestre, `Grupo de idade`, Horas)
+
+
+## Tabela com todos os dados agrupados por `Grande Região`,
+## `Trimestre` e `Grupo de Idade`
+
+emprego <- tabela1 %>%
+  left_join(tabela2) %>%
+  left_join(tabela3)
+
+```
+
+
+
+# Por que usar gráficos?
+
+## Um bom gráfico pode
+
+::: {style="text-align: center; margin-top: 2em; font-size: 1.25em"}
+::: incremental
+-   Tornar a compreensão dos dados mais [simples]{style="color:red"}
+-   Enfatizar dados em meio a um caos de informações
+-   Contar uma [história]{style="color:blue"} simples e autêntica
+:::
+:::
+
+## Simplificando tabelas
+
+::: panel-tabset
+### Dados da PNADC/T
+
+::: {style="text-align: center; margin-top: 2em; font-size: .5em"}
+```{r}
+emprego %>% 
+  select(-Desocupacao) %>% 
+  knitr::kable(align = 'c')
+```
+:::
+
+### Gráfico
+
+```{r}
+ggplot(emprego,
+       aes(x     = Horas,
+           y     = Rendimento,
+           color = fct_reorder(`Grande Região`, Rendimento))) + # Diferencia elementos pelas cores
+  geom_point(                # Formato fixo de círculo
+             size  = 7,
+             alpha = .5)+  
+  facet_wrap(~`Grupo de idade`) +
+  theme_bw() +
+  labs(title = "Relação entre horas média de horas trabalhadas e rendimento médio por faixa etária",
+       color = "Região") +
+  scale_color_gdocs()
+```
+:::
+
+## Enfatizar dados em meio a um caos de informações (1/2) {auto-animate="true"}
+
+![](images/co2.png){width="650" height="475"}
+
+::: footer
+**Perceba os elementos pré-atentivos**. Veja mais em: [Polymer](https://www.polymersearch.com/blog/10-good-and-bad-examples-of-data-visualization)
+:::
+
+## Enfatizar dados em meio a um caos de informações (1/2) {auto-animate="true"}
+
+::: columns
+::: {.column width="50%"}
+![](images/co2.png){top="250" width="600" height="400"}
+:::
+
+::: {.column width="50%"}
+![](images/co2-china.png){top="250" width="600" height="400"}
+:::
+:::
+
+## Enfatizar dados em meio a um caos de informações (2/2) {auto-animate="true"}
+
+![](images/custo-milhas1.png){top="150" left="100" width="710" height="500"}
+
+## Enfatizar dados em meio a um caos de informações (2/2) {auto-animate="true"}
+
+::: columns
+::: {.column width="50%"}
+![](images/custo-milhas1.png){top="150" width="550" height="450"}
+:::
+
+::: {.column width="50%"}
+![](images/custo-milhas.png){top="150" width="550" height="450"}
+:::
+:::
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+## Contar uma história (1/2)
+
+::: {style="text-align: center; margin-top: 2em; font-size: 2em"}
+<!-- [World Income Inequality (Brasil)](https://wid.world/share/#0/countrytimeseries/shweal_p99p100_z;shweal_p0p50_z/BR/2015/eu/k/p/yearly/s/false/-2.8755/60/curve/false/1995/2021){preview-link="true" style="text-align: center"} -->
+:::
+
+## Contar uma história (2/2)
+
+Tendência de processamento de tickets
+
+![](images/Historia-contratacao.png){.absolute top="150" left="100" width="700" height="1700"}
+
+::: footer
+Veja mais em: [StorytellingData](https://www.storytellingwithdata.com/)
+:::
+
+## Diretrizes para um bom gráfico
+
+Os gráficos devem seguir as seguintes [diretrizes]{style="color:blue"}:
+
+. . .
+
+1)  Chamar a atenção para o que é importante nos seus dados (as pessoas procuram os destaques e diferenças em primeiro lugar)
+
+. . .
+
+2)  Simplificar e reduzir as informações periféricas
+
+. . .
+
+3)  Identificar as hierarquias dos dados e refletí-las nos gráficos
+
+## Chamar a atenção para o que é importante
+
+![](images/vaccination.png){.absolute top="150" left="100" width="900" height="500"}
+
+::: footer
+Veja mais em: [The Economist](https://www.economist.com/graphic-detail/2021/02/22/evidence-from-britain-shows-covid-19-vaccines-are-very-effective)
+:::
+
+## Reduzir as informações periféricas
+
+::: columns
+::: {.column width="50%"}
+![](images/gender-class.png){.absolute top="150" width="500" height="500"}
+:::
+
+::: {.column width="50%"}
+![](images/co2.png){.absolute top="150" width="500" height="500"}
+:::
+:::
+
+::: footer
+Veja mais em: [Ross Ihaka](https://www.stat.auckland.ac.nz/~ihaka/120/Lectures/lecture03.pdf) e [Polymer](https://www.polymersearch.com/blog/10-good-and-bad-examples-of-data-visualization)
+:::
+
+## Hierarquias dos dados
+
+![](images/aluguel.png){.absolute top="100" left="130" width="800" height="550"}
+
+# De onde vêm os gráficos?
+
+## Dados de tabelas (1/3) {.smaller}
+
+::: columns
+::: {.column width="52%"}
+```{r}
+
+tabela_simples <- 
+  emprego %>% 
+  filter(str_detect(`Grande Região`, "Oest"),
+         str_detect(Trimestre, "4"),
+         `Grupo de idade` != "Total") %>% 
+  select(`Grupo de idade`, "Desocupação (%)" = Desocupacao) 
+
+knitr::kable(tabela_simples,
+             align = 'c',
+             caption = "Taxa de desemprego no Centro-Oeste (4T/2019)")
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="45%"}
+```{r}
+#| fig-height: 11
+
+
+
+tabela_simples %>% 
+  ggplot(aes(`Grupo de idade`, `Desocupação (%)`)) +
+  geom_col(fill = "blue",
+           width = .5) +
+  theme_minimal() +
+  labs(y = "(%)",
+       x = NULL) +
+  theme(axis.text.y = element_text(size = 32, face = "bold"),
+        axis.text.x = element_text(size = 24,
+                                   angle = -30,
+                                   vjust = .5),
+        axis.title.y = element_text(size = 32,
+                                    face = "bold",
+                                    angle = 0,
+                                    vjust = .5))
+  
+```
+:::
+:::
+
+## Dados de tabelas (2/3) {.smaller}
+
+::: columns
+::: {.column width="52%"}
+```{r}
+knitr::kable(tabela_simples,
+             align = 'c',
+             caption = "Taxa de desemprego no Centro-Oeste (4T/2019)")
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="45%"}
+```{r}
+#| fig-height: 12
+
+
+tabela_simples %>% 
+  ggplot(aes(`Desocupação (%)`,
+             fct_reorder(`Grupo de idade`, `Desocupação (%)`))) +
+  geom_col(fill = "blue",
+           width = .5) +
+  theme_minimal() +
+  labs(y = NULL,
+       x = "(%)") +
+  theme(axis.text = element_text(size = 32, face = "bold"),
+        axis.title.x = element_text(size = 24, face = "bold"))
+  
+```
+:::
+:::
+
+## Dados de tabelas (3/3) {.smaller}
+
+::: columns
+::: {.column width="52%"}
+```{r}
+
+knitr::kable(tabela_simples,
+             align = 'c',
+             caption = "Taxa de desemprego no Centro-Oeste (4T/2019)")
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="45%"}
+```{r}
+#| fig-height: 12
+
+
+tabela_simples %>% 
+  ggplot(aes(`Desocupação (%)`,
+             fct_reorder(`Grupo de idade`, `Desocupação (%)`))) +
+  geom_point(color = "blue",
+             size = 15) +
+  theme_minimal() +
+  labs(y = NULL,
+       x = "(%)") +
+  theme(axis.text = element_text(size = 32, face = "bold"),
+        axis.title.x = element_text(size = 24, face = "bold"))
+  
+```
+:::
+:::
+
+## 3 variáveis (1/3) {.smaller}
+
+::: columns
+::: {.column width="60%"}
+```{r}
+
+tabela_variaveis <-    
+  emprego %>% 
+  filter(str_detect(Trimestre, "4"),
+         str_detect(`Grande Região`, "Su"),
+         `Grupo de idade` != "Total") %>% 
+  select(`Grupo de idade`, "Desocupação (%)" = Desocupacao, `Grande Região`) %>% 
+  arrange( `Grande Região`, desc(`Grupo de idade`))
+
+knitr::kable(tabela_variaveis,
+             align = 'c',
+             caption = "Taxa de desemprego (4T/2019)")
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="37%"}
+```{r}
+#| fig-height: 15
+
+tabela_variaveis %>% 
+    ggplot(aes(`Desocupação (%)`, `Grupo de idade`)) +
+  geom_col(fill = "purple",
+           width = .5) +
+  facet_wrap(. ~ `Grande Região`,
+             nrow = 2) + 
+  theme_bw() +
+  labs(y = NULL,
+       x = "(%)") +
+  theme(axis.text = element_text(size = 32, face = "bold"),
+        axis.title.x = element_text(size = 24),
+        strip.text.x = element_text(size = 32, face = "bold")
+        )
+  
+  
+  
+```
+:::
+:::
+
+## 3 variáveis (2/3) {.smaller}
+
+::: columns
+::: {.column width="60%"}
+```{r}
+
+knitr::kable(tabela_variaveis,
+             align = 'c')
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="37%"}
+```{r}
+#| fig-height: 15
+
+tabela_variaveis %>% 
+    ggplot(aes(`Desocupação (%)`, `Grupo de idade`)) +
+  geom_point(color = "purple",
+             size = 15) +
+  facet_wrap(. ~ `Grande Região`,
+             nrow = 2) + 
+  theme_bw() +
+  labs(y = NULL,
+       x = "(%)") +
+  theme(axis.text = element_text(size = 32, face = "bold"),
+        axis.title.x = element_text(size = 24),
+        strip.text.x = element_text(size = 32, face = "bold")
+        )
+  
+  
+  
+```
+:::
+:::
+
+## 3 variáveis (3/3) {.smaller}
+
+::: columns
+::: {.column width="50%"}
+```{r}
+
+knitr::kable(tabela_variaveis,
+             align = 'c')
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="47%"}
+```{r}
+#| fig-height: 12
+
+tabela_variaveis %>% 
+    ggplot(aes(`Desocupação (%)`,
+               `Grupo de idade`,
+               color = `Grande Região`)) +
+  geom_point(size = 15,
+             alpha = 0.7) +
+  theme_bw() +
+  labs(y = NULL,
+       x = "(%)",
+       color = NULL) +
+  theme(axis.text = element_text(size = 24, face = "bold"),
+        axis.title.x = element_text(size = 24),
+        legend.text = element_text(size = 32, face = "bold")
+        )
+
+```
+:::
+:::
+
+## Forma organizada
+
+```{r}
+tabela_variaveis %>% 
+knitr::kable(align = 'c')
+```
+
+## Forma desorganizada (1/2)
+
+```{r}
+tabela_variaveis %>% 
+  pivot_wider(names_from = `Grupo de idade`,
+              values_from = `Desocupação (%)`) %>% 
+knitr::kable(align = 'c')
+```
+
+## Forma desorganizada (2/2)
+
+```{r}
+tabela_variaveis %>% 
+  pivot_wider(names_from = `Grande Região`,
+              values_from = `Desocupação (%)`) %>% 
+knitr::kable(align = 'c')
+```
+
+## 3 variáveis (de novo!) {.smaller}
+
+::: columns
+::: {.column width="50%"}
+```{r}
+
+knitr::kable(tabela_variaveis,
+             align = 'c',
+             caption = "Taxa de desemprego (4T/2019)")
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="47%"}
+```{r}
+#| fig-height: 12
+
+tabela_variaveis %>% 
+    ggplot(aes(`Desocupação (%)`,
+               `Grupo de idade`,
+               color = `Grande Região`)) +
+  geom_point(size = 15,
+             alpha = 0.7) +
+  theme_bw() +
+  labs(y = NULL,
+       x = "(%)",
+       color = NULL) +
+  theme(axis.text = element_text(size = 24, face = "bold"),
+        axis.title.x = element_text(size = 24),
+        legend.text = element_text(size = 32, face = "bold")
+        )
+
+```
+:::
+:::
+
+## Simplificando tabelas (de novo!)
+
+::: panel-tabset
+### Dados da PNADC/T
+
+::: {style="text-align: center; margin-top: 2em; font-size: .5em"}
+```{r}
+emprego %>% 
+  select(-Desocupacao) %>% 
+  knitr::kable(align = 'c',
+               caption = "Fonte: IBGE.")
+```
+:::
+
+### Gráfico
+
+```{r}
+#| fig-cap: "Fonte: IBGE."
+
+ggplot(emprego,
+       aes(x     = Horas,
+           y     = Rendimento,
+           color = fct_reorder(`Grande Região`, Rendimento))) + # Diferencia elementos pelas cores
+  geom_point(                # Formato fixo de círculo
+             size  = 7,
+             alpha = .5)+  
+  facet_wrap(~`Grupo de idade`) +
+  theme_bw() +
+  labs(title = "Relação entre horas média de horas trabalhadas e rendimento médio por faixa etária (4T/2019)",
+       color = "Região") +
+  scale_color_gdocs()
+```
+:::
+
+# Para nosso próximo encontro
+
+## Gráficos a todo instante
+
+Na próxima semana, [salvem os gráficos que virem]{style="color:orange"}.
+
+![](images/exemplo-tarefa.png){width="600" height="350" fig-position="center"}
+
+Usaremos como material de análise para a próxima semana!
+
+## Gráficos em casa
+
+::: columns
+::: {.column width="40%"}
+::: {style="font-size: 1.15em; margin-top: 3em"}
+Avaliem o [Relatório Multicidades](https://multimidia.fnp.org.br/biblioteca/documentos/item/1009-multicidades-ano-18-2023) e analisem um gráfico/tabela à luz do que vimos hoje!
+:::
+
+::: {.column width="60%"}
+:::
+
+![](images/Multicidades.png){.absolute top="100" right="50" width="450" height="550"}
+:::
+:::
+
+# Diretrizes gerais e problemas comuns
+
+## Revisão do primeiro episódio (diretrizes gerais)
+
+::: incremental
+::: {style="text-align: center; margin-top: 0.4em; font-size: 1.25em"}
+1.  Entenda o contexto (quem, o que e como?)
+2.  Escolha o formato apropriado de apresentação
+3.  Elimite todo o excesso de informação
+4.  Chame atenção para o que você deseja enfatizar
+5.  [Conte uma história]{style="color:red"} completa
+:::
+:::
+
+##  {auto-animate="true"}
+
+::: {style="text-align: right; margin-top: 3em; font-size: 1.5em"}
+"Eu teria escrito uma carta mais curta, mas não tive tempo."
+:::
+
+Blaise Pascal
+
+##  {auto-animate="true"}
+
+::: {style="text-align: right; margin-top: 3em; font-size: 1.5em"}
+Eu teria feito um gráfico mais simples, mas não tive tempo.
+:::
+
+## Use elementos pré-atentivos {auto-animate="true"}
+
+![](images/count-3.png){.absolute top="100" right="10" width="1100" height="500"}
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+## Use elementos pré-atentivos {auto-animate="true"}
+
+![](images/count-easy.png){.absolute top="100" right="10" width="1100" height="500"}
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+# Tipos de gráficos
+
+## Gráfico de dispersão (de pontos)
+
+```{r}
+#| fig-width: 9
+#| fig-height: 5.5
+
+scatter <- 
+ggplot(emprego,
+       aes(x     = Horas,
+           y     = Rendimento,
+           color = fct_reorder(`Grande Região`, Rendimento))) + # Diferencia elementos pelas cores
+  geom_point(                # Formato fixo de círculo
+             size  = 3,
+             alpha = .5)+  
+  # facet_wrap(~`Grupo de idade`) +
+  theme_bw() +
+  labs(title = "Relação entre horas média de horas trabalhadas e rendimento médio (4T/2019)",
+       color = "Região") +
+  scale_color_gdocs()
+
+plotly::ggplotly(scatter)
+```
+
+## Gráfico de dispersão conectado
+
+![](images/fnp-5.1.png){.absolute top="100" right="10" width="1000" height="550"}
+
+## Gráfico de linhas
+
+![](images/line-graph.png){.absolute top="100" right="10" width="1000" height="550"}
+
+::: footer
+Veja mais: [DataViz](https://datavizproject.com/)
+:::
+
+## Gráfico de barras
+
+::: columns
+::: {.column width="52%"}
+```{r}
+#| fig-height: 10
+
+
+tabela_simples %>% 
+  ggplot(aes(`Desocupação (%)`,
+             fct_reorder(`Grupo de idade`, `Desocupação (%)`))) +
+  geom_col(fill = "blue",
+           width = .5) +
+  theme_minimal() +
+  labs(y = NULL,
+       x = "(%)") +
+  theme(axis.text = element_text(size = 32, face = "bold"),
+        axis.title.x = element_text(size = 24, face = "bold"))
+  
+```
+:::
+
+::: {.column width="3%"}
+:::
+
+::: {.column width="45%"}
+```{r}
+#| fig-height: 11
+
+
+
+tabela_simples %>% 
+  ggplot(aes(`Grupo de idade`, `Desocupação (%)`)) +
+  geom_col(fill = "blue",
+           width = .5) +
+  theme_minimal() +
+  labs(y = "(%)",
+       x = NULL) +
+  theme(axis.text.y = element_text(size = 32, face = "bold"),
+        axis.text.x = element_text(size = 24,
+                                   angle = -30,
+                                   vjust = .5),
+        axis.title.y = element_text(size = 32,
+                                    face = "bold",
+                                    angle = 0,
+                                    vjust = .5))
+  
+```
+:::
+:::
+
+## Gráfico de área empilhada
+
+![](images/stacked-area.png){.absolute top="100" right="10" width="1000" height="550"}
+
+::: footer
+Veja mais em https://engenheiradoexcel.com.br/grafico-de-linha-no-excel/
+:::
+
+## Mapa coroplético
+
+![](images/mapa-coropletico.png){.absolute top="100" right="10" width="800" height="550"}
+
+::: footer
+Veja mais em [Verbete Wikipedia](https://pt.wikipedia.org/wiki/Mapa_coropl%C3%A9tico)
+:::
+
+## Mapa de bolhas
+
+![](images/bubble-map.png){.absolute top="100" right="10" width="1200" height="550"}
+
+::: footer
+Veja mais em https://wgicouncil.org/blogs/new-who-covid-19-maps-dashboard/
+:::
+
+## Gráfico de pizza
+
+![](images/Gr%C3%A1fico-de-Pizza.png){.absolute top="100" right="10" width="1200" height="550"}
+
+::: footer
+Veja mais em [Excel Easy](https://exceleasy.com.br/escolher-o-melhor-tipo-de-grafico-no-excel/grafico-de-pizza/)
+:::
+
+## Ferramenta de consulta
+
+::: columns
+::: {.column width="50%"}
+::: {style="text-align: center; margin-top: 1.5em; font-size: 2em"}
+[FromDataToViz](https://www.data-to-viz.com/){preview-link="true" style="text-align: center"}
+:::
+
+::: {style="text-align: center; margin-top: 1.5em; font-size: 2em"}
+[FromDataToViz (traduzido)](https://www-data--to--viz-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en-US&_x_tr_pto=wapp){preview-link="true" style="text-align: center"}
+:::
+:::
+
+::: {.column width="50%"}
+::: {style="text-align: center; margin-top: 1.5em; font-size: 2em"}
+[DataViz](https://datavizproject.com/){preview-link="true" style="text-align: center"}
+:::
+
+::: {style="text-align: center; margin-top: 1.5em; font-size: 2em"}
+[DataViz (traduzido)](https://datavizproject-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=en-US&_x_tr_pto=wapp){preview-link="true" style="text-align: center"}
+:::
+:::
+:::
+
+# Principais problemas
+
+## Gráfico pontos conectados (errado)
+
+![](images/linha-errado.png){.absolute top="100" right="10" width="900" height="500"}
+
+::: footer
+Learn more: [Posgraduando](https://posgraduando.com/exemplos-de-graficos/)
+:::
+
+## Gráfico correto
+
+![](images/linha-conserto.png){.absolute top="100" right="10" width="900" height="500"}
+
+::: footer
+Learn more: [Posgraduando](https://posgraduando.com/exemplos-de-graficos/)
+:::
+
+## Barras que não começam do zero
+
+![](images/tax-cut.png){.absolute top="150" right="10" width="1300" height="500"}
+
+::: footer
+Veja mais em: [Cole Nussbaumer Knaflic. Storytelling with Data.](https://www.storytellingwithdata.com/books)
+:::
+
+## Linha que não começa do zero {auto-animate="true"}
+
+![](images/linha-nao-zero.png){.absolute top="100" right="10" width="1100" height="500"}
+
+::: footer
+Learn more: [Posgraduando](https://posgraduando.com/exemplos-de-graficos/)
+:::
+
+## Linha que não começa do zero {auto-animate="true"}
+
+::: columns
+::: {.column width="50%"}
+![](images/linha-nao-zero.png){top="250" width="600" height="400"}
+:::
+
+::: {.column width="50%"}
+![](images/linha-zero.png){top="250" width="600" height="400"}
+:::
+:::
+
+::: footer
+Learn more: [Posgraduando](https://posgraduando.com/exemplos-de-graficos/)
+:::
+
+## Gráficos de área enganam pessoas
+
+![](images/covid-pizza.png){.absolute top="70" right="10" width="700" height="600"}
+
+::: footer
+Learn more: [Venngage](https://pt.venngage.com/blog/infograficos-ruins/)
+:::
+
+## Onde está o erro?
+
+![](images/pizza-problem.png){.absolute right="150" width="700" height="550"}
+
+## Gráfico de áreas de círculos
+
+![](images/Bubble-Map2.png){.absolute right="150" width="700" height="550"}
+
+::: footer
+Veja mais em: [DataViz](https://datavizproject.com/data-type/bubble-map-chart/)
+:::
+
+## Gráfico em 3D {auto-animate="true"}
+
+![](images/3d-graph.png){.absolute right="50" width="900" height="550"}
+
+::: footer
+Veja mais em: [Podfeet Podcasts](https://www.podfeet.com/blog/tutorials-5/how-to-make-2d-excel-graphs-look-3d/)
+:::
+
+## Gráfico em 3D {auto-animate="true"}
+
+![](images/3D-map.png){.absolute right="50" width="900" height="550"}
+
+::: footer
+Veja mais em: [DataViz](https://datavizproject.com/data-type/3d-bar-chart/)
+:::
+
+## Nenhum gráfico fica bom se a informação é dúbia
+
+![](images/dubio.png){.absolute top="150" right="50" width="900" height="500"}
+
+::: footer
+Veja mais em: [Ross Ihaka](https://www.stat.auckland.ac.nz/~ihaka/120/Lectures/lecture03.pdf)
+:::
+
+## Gráfico mais complexo que sua fonte
+
+::: columns
+::: {.column width="40%"}
+![](images/complexity.png){.absolute width="500" height="550"}
+:::
+
+::: {.column width="60%"}
+::: {style="text-align: center; font-size: 0.75em"}
+Estudantes do EM com mais de 25 anos
+:::
+
+![](images/no-complexity.png){.absolute top="200" right="50" width="500" height="450"}
+:::
+:::
+
+::: footer
+Veja mais em: [Ross Ihaka](https://www.stat.auckland.ac.nz/~ihaka/120/Lectures/lecture03.pdf)
+:::
+
+::: footer
+Learn more: [Tabsets](https://quarto.org/docs/presentations/revealjs/#tabsets)
+:::
+
+## Não se deve distorcer informações
+
+::: panel-tabset
+### Distorção
+
+![](images/faculty-log.png){.absolute left="100" width="900" height="450"}
+
+### Correto
+
+::: columns
+::: {.column width="50%"}
+![](images/faculty-size.png){.absolute top="200" width="500" height="450"}
+:::
+
+::: {.column width="50%"}
+![](images/faculty-gender.png){.absolute top="200" right="50" width="500" height="450"}
+:::
+:::
+:::
+
+::: footer
+Veja mais em: [Ross Ihaka](https://www.stat.auckland.ac.nz/~ihaka/120/Lectures/lecture03.pdf)
+:::
+
+## Excesso de criatividade
+
+![](images/female-height.png){.absolute top="70" right="10" width="700" height="600"}
+
+::: footer
+Learn more: [Venngage](https://pt.venngage.com/blog/infograficos-ruins/)
+:::
+
+# Exemplo prático
+
+Todo o exemplo foi baseado em [Cole Nussbaumer Knaflic. Storytelling with Data: A Data Visualization Guide for Business Professionals](https://www.storytellingwithdata.com/books)
+
+## 
+
+Título orignal: **O preço de todos os produtos caíram desde o lançamento do produto C em 2010**
+
+![](images/final-original.PNG){.absolute right="10" width="1000" height="500"}
+
+## Entenda o contexto
+
+::: {style="text-align: right; margin-top: 3em"}
+-   **Quem?** Vice-presidente de produtos, que decidirá o preço.
+-   **O que?** Entender como o preço dos competidores evoluiu e sugerir um intervalo de preços.
+-   **Como?** Mostrar a evolução dos preços médios dos produtos ao longo do tempo.
+:::
+
+
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-original.PNG){top="250" width="700" height="450"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-2.1.PNG){top="250" width="700" height="450"}
+:::
+:::
+
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+![](images/final-2.1.PNG){right="10" width="1000" height="550"}
+
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-2.1.PNG){top="250" width="700" height="450"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-2.2.PNG){top="250" width="700" height="450"}
+:::
+:::
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+![](images/final-2.2.PNG){right="10" width="1000" height="550"}
+
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-2.2.PNG){top="250" width="700" height="450"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-2.3.PNG){top="250" width="700" height="450"}
+:::
+:::
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+![](images/final-2.3.PNG){right="10" width="1000" height="550"}
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-2.3.PNG){top="250" width="700" height="450"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-2.4.PNG){top="250" width="700" height="450"}
+:::
+:::
+
+## Formato apropriado de apresentação {auto-animate="true"}
+
+![](images/final-2.4.PNG){right="10" width="1000" height="550"}
+
+
+
+## Eliminar todo excesso {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-2.4.PNG){top="200" width="500" height="400"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-3.PNG){top="200" right="50" width="500" height="400"}
+:::
+:::
+
+## Eliminar todo excesso {auto-animate="true"}
+
+![](images/final-3.PNG){right="10" width="1000" height="550"}
+
+
+## Chamar atenção para o que você deseja enfatizar {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-3.PNG){top="200" width="500" height="400"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-4.1.PNG){top="200" width="500" height="400"}
+:::
+:::
+
+## Chamar atenção para o que você deseja enfatizar {auto-animate="true"}
+
+![](images/final-4.1.PNG){right="10" width="1000" height="480"}
+
+
+## Chamar atenção para o que você deseja enfatizar {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-4.1.PNG){top="200" width="500" height="400"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-4.2.PNG){top="200" width="500" height="400"}
+:::
+:::
+
+## Chamar atenção para o que você deseja enfatizar {auto-animate="true"}
+
+![](images/final-4.2.PNG){right="10" width="1000" height="480"}
+
+
+## Chamar atenção para o que você deseja enfatizar {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-4.2.PNG){top="200" width="500" height="400"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-4.3.PNG){top="200" width="500" height="400"}
+:::
+:::
+
+## Chamar atenção para o que você deseja enfatizar {auto-animate="true"}
+
+![](images/final-4.3.PNG){right="10" width="1000" height="480"}
+
+
+## [Contar uma história]{style="color:red"} completa {auto-animate="true"}
+
+![](images/final-6.1.PNG){right="10" width="1000" height="550"}
+
+## 
+
+
+![](images/final-6.2.PNG){right="10" width="1000" height="600"}
+
+
+##
+
+![](images/final-6.3.PNG){right="10" width="1000" height="600"}
+
+
+##
+
+![](images/final-6.4.PNG){right="10" width="1000" height="600"}
+
+##
+
+![](images/final-6.5.PNG){right="10" width="1000" height="600"}
+
+##
+
+![](images/final-6.6.PNG){right="10" width="1000" height="600"}
+
+##
+
+![](images/final-6.6.PNG){right="10" width="1000" height="600"}
+
+##
+
+![](images/final-6.8.PNG){right="10" width="1000" height="600"}
+
+
+
+::: footer
+AVG = 231
+:::
+
+## Antes e depois {auto-animate="true"}
+
+::: columns
+::: {.column width="48%"}
+![](images/final-original.PNG){top="200" width="500" height="400"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![](images/final-6.8.PNG){top="200" width="500" height="400"}
+:::
+:::
+
+::: footer
+AVG = 231
+:::
+
+# Casos concretos de vocês
+
+## 
+
+![](images/fnp-1.png){.absolute right="10" width="1000" height="800"}
+
+## 
+
+![](images/sem-sem.PNG){.absolute right="10" width="1100" height="800"}
+
+## 
+
+![](images/theo-2.png){.absolute right="10" width="1100" height="800"}
+
+## 
+
+![](images/fnp-2.png){.absolute right="10" width="1000" height="800"}
+
+## 
+
+![](images/theo-3.png){.absolute right="10" width="1100" height="800"}
+
+## 
+
+![](images/fnp-3.png){.absolute right="10" width="1000" height="800"}
+
+## 
+
+![](images/theo-5.png){.absolute right="10" width="1100" height="800"}
+
+## 
+
+![](images/fnp-4.png){.absolute right="10" width="1000" height="800"}
+
+## 
+
+![](images/theo-1.png){.absolute right="10" width="1100" height="800"}
+
+## 
+
+![](images/fnp-5.png){.absolute right="10" width="1000" height="800"}
+
+## 
+
+![](images/theo-4.png){.absolute right="10" width="1100" height="800"}
+
+## 
+
+![](images/fnp-6.png){.absolute right="10" width="1000" height="800"}
+
+# Notas conclusivas
+
+## Gráfico eficiente
+
+::: {style="text-align: right; margin-top: 3em"}
+::: incremental
+-   Conta uma história com início, meio e fim;
+-   Todos elementos têm um objetivo;
+-   Possui sentido completo; e
+-   Ajuda a [convencer]{style="color:red"} quem o lê.
+:::
+:::
+
+## Como consultar sobre gráficos
+
+::: {style="text-align: right; margin-top: 6em"}
+[chatGPT](https://chat.openai.com/chat){preview-link="true" style="text-align: center"}
+:::
+
+![](images/chatgpt.jpeg){.absolute top="100" width="700" height="550"}
+
+## Referências úteis
+
+::: {style="margin-top: 2em; font-size: 1em"}
+[Cole Nussbaumer Knaflic. Storytelling with Data: A Data Visualization Guide for Business Professionals](https://www.storytellingwithdata.com/books){preview-link="true" style="text-align: center; margin-top: 2em"}
+
+[Andy Kirk. Data Visualisation: A Handbook For Data Driven Design (2019)](https://uk.sagepub.com/en-gb/eur/data-visualisation/book266150){preview-link="true" style="text-align: center"}
+
+[Claus O. Wilke. Fundamentals of Data Visualization](https://clauswilke.com/dataviz/){preview-link="true" style="text-align: center"}
+
+[Bons exemplos](https://www.reddit.com/r/dataisbeautiful/){preview-link="true" style="text-align: left"}
+
+[Maus exemplos](https://www.reddit.com/r/dataisugly/?utm_medium=android_app&utm_source=share){preview-link="true" style="text-align: right"}
+:::
+
+------------------------------------------------------------------------
+
+::: {style="text-align: right; margin-top: 6em"}
+Muito obrigado!
+:::

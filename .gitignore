@@ -11,6 +11,7 @@
 
 # Check photo files in other directory
 *.png
+*.PNG
 *.jpg
 *.jpeg
 
@@ -32,6 +33,11 @@ vignettes/*.pdf
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
+
+# Use photos from onedrive
+*.png
+*.jpg
+*.jpeg
 
 # knitr and R markdown default cache directories
 *_cache/
