@@ -1,10 +1,703 @@
 [
   {
-    "objectID": "presentations/presentation-demo.html#secondary-topic",
-    "href": "presentations/presentation-demo.html#secondary-topic",
-    "title": "Presentation demo",
-    "section": "Secondary topic",
-    "text": "Secondary topic\nRemembering and trying to not get mad. last windows chance"
+    "objectID": "presentations/avaliando-graficos.html#gráfico-eficiente",
+    "href": "presentations/avaliando-graficos.html#gráfico-eficiente",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico eficiente",
+    "text": "Gráfico eficiente\n\nAo final, espero que sejamos capazes de:\n\n\n\n\nIdentificar as informações apresentadas em gráficos\nContar histórias com os dados (números) para determinado público\nApresentar dados de forma eficiente"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#o-que-trataremos",
+    "href": "presentations/avaliando-graficos.html#o-que-trataremos",
+    "title": "Conhecendo Gráficos",
+    "section": "O que trataremos",
+    "text": "O que trataremos\n\n13/01/2023\n\nRazões para se ocupar com visualização de dados\nRelações entre tabelas e gráficos\nElementos de um bom gráfico\n\n27/01/2023\n\nAnálise da qualidade dos gráficos\nAvaliar os erros mais comuns\nApresentar soluções para tais erros"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#combate-à-cólera-na-inglaterra",
+    "href": "presentations/avaliando-graficos.html#combate-à-cólera-na-inglaterra",
+    "title": "Conhecendo Gráficos",
+    "section": "Combate à cólera na Inglaterra",
+    "text": "Combate à cólera na Inglaterra\n\n\n“Bad air” John Snow (1813–1858), Father of Epidemiology. Veja mais em: Mala Deep."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#escravidão-nos-eua",
+    "href": "presentations/avaliando-graficos.html#escravidão-nos-eua",
+    "title": "Conhecendo Gráficos",
+    "section": "Escravidão nos EUA",
+    "text": "Escravidão nos EUA\n\n\n1860 Census, used by President Abraham Lincoln, according to Francis Bicknell Carpenter. Veja mais em: Mala Deep."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#escravidão-nos-eua-1",
+    "href": "presentations/avaliando-graficos.html#escravidão-nos-eua-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Escravidão nos EUA",
+    "text": "Escravidão nos EUA\n\n\nFirst Reading of the Emancipation Proclamation of President Lincoln, painted by Francis Bicknell Carpenter. Veja mais em: Mala Deep."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#probabilidade-de-morrer-por-sexo",
+    "href": "presentations/avaliando-graficos.html#probabilidade-de-morrer-por-sexo",
+    "title": "Conhecendo Gráficos",
+    "section": "Probabilidade de morrer (por sexo)",
+    "text": "Probabilidade de morrer (por sexo)\n\n\nVeja mais em: Pointless Graphs"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#proporção-de-cada-letra-do-alfabeto",
+    "href": "presentations/avaliando-graficos.html#proporção-de-cada-letra-do-alfabeto",
+    "title": "Conhecendo Gráficos",
+    "section": "Proporção de cada letra do alfabeto",
+    "text": "Proporção de cada letra do alfabeto\n\n\nVeja mais em: Pointless Graphs"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#mapa-múndi-se-o-nível-dos-oceanos-subir-10.000-metros",
+    "href": "presentations/avaliando-graficos.html#mapa-múndi-se-o-nível-dos-oceanos-subir-10.000-metros",
+    "title": "Conhecendo Gráficos",
+    "section": "Mapa-múndi se o nível dos oceanos subir 10.000 metros",
+    "text": "Mapa-múndi se o nível dos oceanos subir 10.000 metros\n\n\nVeja mais em: Pointless Graphs"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#planetas-no-sistema-solar",
+    "href": "presentations/avaliando-graficos.html#planetas-no-sistema-solar",
+    "title": "Conhecendo Gráficos",
+    "section": "Planetas no sistema solar",
+    "text": "Planetas no sistema solar\n\n\nVeja mais em: Pointless Graphs"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#anos-desde-1990",
+    "href": "presentations/avaliando-graficos.html#anos-desde-1990",
+    "title": "Conhecendo Gráficos",
+    "section": "Anos desde 1990",
+    "text": "Anos desde 1990\n\n\nVeja mais em: Pointless Graphs"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#nem-tudo-precisa-de-um-gráfico",
+    "href": "presentations/avaliando-graficos.html#nem-tudo-precisa-de-um-gráfico",
+    "title": "Conhecendo Gráficos",
+    "section": "Nem tudo precisa de um gráfico",
+    "text": "Nem tudo precisa de um gráfico\n\n“A cafeteria da empresa foi usada por 9 em cada 10 empregados durante o ano fiscal de 1949”\n\n\n\nVeja mais em: Ross Ihaka"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#entendendo-o-contexto",
+    "href": "presentations/avaliando-graficos.html#entendendo-o-contexto",
+    "title": "Conhecendo Gráficos",
+    "section": "Entendendo o contexto",
+    "text": "Entendendo o contexto\n\n\nAnálise exploratória vs explanatória\n\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#entendendo-o-contexto-1",
+    "href": "presentations/avaliando-graficos.html#entendendo-o-contexto-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Entendendo o contexto",
+    "text": "Entendendo o contexto\n\n\nAnálise exploratória vs explanatória\nReflita sobre para quem\n\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#entendendo-o-contexto-2",
+    "href": "presentations/avaliando-graficos.html#entendendo-o-contexto-2",
+    "title": "Conhecendo Gráficos",
+    "section": "Entendendo o contexto",
+    "text": "Entendendo o contexto\n\n\nAnálise exploratória vs explanatória\nReflita sobre para quem, o que\n\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#entendendo-o-contexto-3",
+    "href": "presentations/avaliando-graficos.html#entendendo-o-contexto-3",
+    "title": "Conhecendo Gráficos",
+    "section": "Entendendo o contexto",
+    "text": "Entendendo o contexto\n\n\nAnálise exploratória vs explanatória\nReflita sobre para quem, o que e como planeja apresentar as informações\n\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#entendendo-o-contexto-4",
+    "href": "presentations/avaliando-graficos.html#entendendo-o-contexto-4",
+    "title": "Conhecendo Gráficos",
+    "section": "Entendendo o contexto",
+    "text": "Entendendo o contexto\n\n\nAnálise exploratória vs explanatória\nReflita sobre para quem, o que e como planeja apresentar as informações\nTenha uma ideia em 3 minutos (e uma frase-chave) do que pretende alcançar\n\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#um-bom-gráfico-pode",
+    "href": "presentations/avaliando-graficos.html#um-bom-gráfico-pode",
+    "title": "Conhecendo Gráficos",
+    "section": "Um bom gráfico pode",
+    "text": "Um bom gráfico pode\n\n\n\nTornar a compreensão dos dados mais simples\nEnfatizar dados em meio a um caos de informações\nContar uma história simples e autêntica"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#simplificando-tabelas",
+    "href": "presentations/avaliando-graficos.html#simplificando-tabelas",
+    "title": "Conhecendo Gráficos",
+    "section": "Simplificando tabelas",
+    "text": "Simplificando tabelas\n\nDados da PNADC/TGráfico\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrande Região\nTrimestre\nGrupo de idade\nRendimento\nHoras\n\n\n\n\nNorte\n4º trimestre 2019\nTotal\n2144\n36.9\n\n\nNorte\n4º trimestre 2019\n14 a 17 anos\n555\n24.7\n\n\nNorte\n4º trimestre 2019\n18 a 24 anos\n1263\n36.0\n\n\nNorte\n4º trimestre 2019\n25 a 39 anos\n2081\n37.6\n\n\nNorte\n4º trimestre 2019\n40 a 59 anos\n2494\n37.5\n\n\nNorte\n4º trimestre 2019\n60 anos ou mais\n2746\n35.0\n\n\nNordeste\n4º trimestre 2019\nTotal\n1965\n36.9\n\n\nNordeste\n4º trimestre 2019\n14 a 17 anos\n468\n23.9\n\n\nNordeste\n4º trimestre 2019\n18 a 24 anos\n1071\n35.3\n\n\nNordeste\n4º trimestre 2019\n25 a 39 anos\n1964\n37.7\n\n\nNordeste\n4º trimestre 2019\n40 a 59 anos\n2203\n37.3\n\n\nNordeste\n4º trimestre 2019\n60 anos ou mais\n2609\n34.6\n\n\nSudeste\n4º trimestre 2019\nTotal\n3276\n40.1\n\n\nSudeste\n4º trimestre 2019\n14 a 17 anos\n773\n26.1\n\n\nSudeste\n4º trimestre 2019\n18 a 24 anos\n1659\n38.9\n\n\nSudeste\n4º trimestre 2019\n25 a 39 anos\n3284\n41.1\n\n\nSudeste\n4º trimestre 2019\n40 a 59 anos\n3734\n40.7\n\n\nSudeste\n4º trimestre 2019\n60 anos ou mais\n3965\n36.9\n\n\nSul\n4º trimestre 2019\nTotal\n3175\n40.1\n\n\nSul\n4º trimestre 2019\n14 a 17 anos\n947\n27.3\n\n\nSul\n4º trimestre 2019\n18 a 24 anos\n1834\n39.3\n\n\nSul\n4º trimestre 2019\n25 a 39 anos\n3111\n41.1\n\n\nSul\n4º trimestre 2019\n40 a 59 anos\n3706\n40.7\n\n\nSul\n4º trimestre 2019\n60 anos ou mais\n3792\n36.7\n\n\nCentro-Oeste\n4º trimestre 2019\nTotal\n3165\n39.7\n\n\nCentro-Oeste\n4º trimestre 2019\n14 a 17 anos\n847\n28.0\n\n\nCentro-Oeste\n4º trimestre 2019\n18 a 24 anos\n1719\n39.4\n\n\nCentro-Oeste\n4º trimestre 2019\n25 a 39 anos\n3178\n40.4\n\n\nCentro-Oeste\n4º trimestre 2019\n40 a 59 anos\n3681\n40.1\n\n\nCentro-Oeste\n4º trimestre 2019\n60 anos ou mais\n3672\n37.3"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-12",
+    "href": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-12",
+    "title": "Conhecendo Gráficos",
+    "section": "Enfatizar dados em meio a um caos de informações (1/2)",
+    "text": "Enfatizar dados em meio a um caos de informações (1/2)\n\n\nPerceba os elementos pré-atentivos. Veja mais em: Polymer"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-12-1",
+    "href": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-12-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Enfatizar dados em meio a um caos de informações (1/2)",
+    "text": "Enfatizar dados em meio a um caos de informações (1/2)"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-22",
+    "href": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-22",
+    "title": "Conhecendo Gráficos",
+    "section": "Enfatizar dados em meio a um caos de informações (2/2)",
+    "text": "Enfatizar dados em meio a um caos de informações (2/2)"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-22-1",
+    "href": "presentations/avaliando-graficos.html#enfatizar-dados-em-meio-a-um-caos-de-informações-22-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Enfatizar dados em meio a um caos de informações (2/2)",
+    "text": "Enfatizar dados em meio a um caos de informações (2/2)\n\n\n\n\n\n\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#contar-uma-história-12",
+    "href": "presentations/avaliando-graficos.html#contar-uma-história-12",
+    "title": "Conhecendo Gráficos",
+    "section": "Contar uma história (1/2)",
+    "text": "Contar uma história (1/2)"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#contar-uma-história-22",
+    "href": "presentations/avaliando-graficos.html#contar-uma-história-22",
+    "title": "Conhecendo Gráficos",
+    "section": "Contar uma história (2/2)",
+    "text": "Contar uma história (2/2)\nTendência de processamento de tickets\n\n\nVeja mais em: StorytellingData"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#diretrizes-para-um-bom-gráfico",
+    "href": "presentations/avaliando-graficos.html#diretrizes-para-um-bom-gráfico",
+    "title": "Conhecendo Gráficos",
+    "section": "Diretrizes para um bom gráfico",
+    "text": "Diretrizes para um bom gráfico\nOs gráficos devem seguir as seguintes diretrizes:\n\n\nChamar a atenção para o que é importante nos seus dados (as pessoas procuram os destaques e diferenças em primeiro lugar)\n\n\n\n\nSimplificar e reduzir as informações periféricas\n\n\n\n\nIdentificar as hierarquias dos dados e refletí-las nos gráficos"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#chamar-a-atenção-para-o-que-é-importante",
+    "href": "presentations/avaliando-graficos.html#chamar-a-atenção-para-o-que-é-importante",
+    "title": "Conhecendo Gráficos",
+    "section": "Chamar a atenção para o que é importante",
+    "text": "Chamar a atenção para o que é importante\n\n\nVeja mais em: The Economist"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#reduzir-as-informações-periféricas",
+    "href": "presentations/avaliando-graficos.html#reduzir-as-informações-periféricas",
+    "title": "Conhecendo Gráficos",
+    "section": "Reduzir as informações periféricas",
+    "text": "Reduzir as informações periféricas\n\n\n\n\n\n\n\n\nVeja mais em: Ross Ihaka e Polymer"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#hierarquias-dos-dados",
+    "href": "presentations/avaliando-graficos.html#hierarquias-dos-dados",
+    "title": "Conhecendo Gráficos",
+    "section": "Hierarquias dos dados",
+    "text": "Hierarquias dos dados"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#dados-de-tabelas-13",
+    "href": "presentations/avaliando-graficos.html#dados-de-tabelas-13",
+    "title": "Conhecendo Gráficos",
+    "section": "Dados de tabelas (1/3)",
+    "text": "Dados de tabelas (1/3)\n\n\n\n\n\nTaxa de desemprego no Centro-Oeste (4T/2019)\n\n\nGrupo de idade\nDesocupação (%)\n\n\n\n\n14 a 17 anos\n42.6\n\n\n18 a 24 anos\n20.2\n\n\n25 a 39 anos\n8.1\n\n\n40 a 59 anos\n4.7\n\n\n60 anos ou mais\n3.8"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#dados-de-tabelas-23",
+    "href": "presentations/avaliando-graficos.html#dados-de-tabelas-23",
+    "title": "Conhecendo Gráficos",
+    "section": "Dados de tabelas (2/3)",
+    "text": "Dados de tabelas (2/3)\n\n\n\n\n\nTaxa de desemprego no Centro-Oeste (4T/2019)\n\n\nGrupo de idade\nDesocupação (%)\n\n\n\n\n14 a 17 anos\n42.6\n\n\n18 a 24 anos\n20.2\n\n\n25 a 39 anos\n8.1\n\n\n40 a 59 anos\n4.7\n\n\n60 anos ou mais\n3.8"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#dados-de-tabelas-33",
+    "href": "presentations/avaliando-graficos.html#dados-de-tabelas-33",
+    "title": "Conhecendo Gráficos",
+    "section": "Dados de tabelas (3/3)",
+    "text": "Dados de tabelas (3/3)\n\n\n\n\n\nTaxa de desemprego no Centro-Oeste (4T/2019)\n\n\nGrupo de idade\nDesocupação (%)\n\n\n\n\n14 a 17 anos\n42.6\n\n\n18 a 24 anos\n20.2\n\n\n25 a 39 anos\n8.1\n\n\n40 a 59 anos\n4.7\n\n\n60 anos ou mais\n3.8"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#variáveis-13",
+    "href": "presentations/avaliando-graficos.html#variáveis-13",
+    "title": "Conhecendo Gráficos",
+    "section": "3 variáveis (1/3)",
+    "text": "3 variáveis (1/3)\n\n\n\n\n\nTaxa de desemprego (4T/2019)\n\n\nGrupo de idade\nDesocupação (%)\nGrande Região\n\n\n\n\n60 anos ou mais\n4.9\nSudeste\n\n\n40 a 59 anos\n7.0\nSudeste\n\n\n25 a 39 anos\n10.3\nSudeste\n\n\n18 a 24 anos\n24.0\nSudeste\n\n\n14 a 17 anos\n45.8\nSudeste\n\n\n60 anos ou mais\n3.0\nSul\n\n\n40 a 59 anos\n3.8\nSul\n\n\n25 a 39 anos\n5.5\nSul\n\n\n18 a 24 anos\n14.8\nSul\n\n\n14 a 17 anos\n34.5\nSul"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#variáveis-23",
+    "href": "presentations/avaliando-graficos.html#variáveis-23",
+    "title": "Conhecendo Gráficos",
+    "section": "3 variáveis (2/3)",
+    "text": "3 variáveis (2/3)\n\n\n\n\n\n\n\nGrupo de idade\nDesocupação (%)\nGrande Região\n\n\n\n\n60 anos ou mais\n4.9\nSudeste\n\n\n40 a 59 anos\n7.0\nSudeste\n\n\n25 a 39 anos\n10.3\nSudeste\n\n\n18 a 24 anos\n24.0\nSudeste\n\n\n14 a 17 anos\n45.8\nSudeste\n\n\n60 anos ou mais\n3.0\nSul\n\n\n40 a 59 anos\n3.8\nSul\n\n\n25 a 39 anos\n5.5\nSul\n\n\n18 a 24 anos\n14.8\nSul\n\n\n14 a 17 anos\n34.5\nSul"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#variáveis-33",
+    "href": "presentations/avaliando-graficos.html#variáveis-33",
+    "title": "Conhecendo Gráficos",
+    "section": "3 variáveis (3/3)",
+    "text": "3 variáveis (3/3)\n\n\n\n\n\n\n\nGrupo de idade\nDesocupação (%)\nGrande Região\n\n\n\n\n60 anos ou mais\n4.9\nSudeste\n\n\n40 a 59 anos\n7.0\nSudeste\n\n\n25 a 39 anos\n10.3\nSudeste\n\n\n18 a 24 anos\n24.0\nSudeste\n\n\n14 a 17 anos\n45.8\nSudeste\n\n\n60 anos ou mais\n3.0\nSul\n\n\n40 a 59 anos\n3.8\nSul\n\n\n25 a 39 anos\n5.5\nSul\n\n\n18 a 24 anos\n14.8\nSul\n\n\n14 a 17 anos\n34.5\nSul"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#forma-organizada",
+    "href": "presentations/avaliando-graficos.html#forma-organizada",
+    "title": "Conhecendo Gráficos",
+    "section": "Forma organizada",
+    "text": "Forma organizada\n\n\n\n\n\nGrupo de idade\nDesocupação (%)\nGrande Região\n\n\n\n\n60 anos ou mais\n4.9\nSudeste\n\n\n40 a 59 anos\n7.0\nSudeste\n\n\n25 a 39 anos\n10.3\nSudeste\n\n\n18 a 24 anos\n24.0\nSudeste\n\n\n14 a 17 anos\n45.8\nSudeste\n\n\n60 anos ou mais\n3.0\nSul\n\n\n40 a 59 anos\n3.8\nSul\n\n\n25 a 39 anos\n5.5\nSul\n\n\n18 a 24 anos\n14.8\nSul\n\n\n14 a 17 anos\n34.5\nSul"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#forma-desorganizada-12",
+    "href": "presentations/avaliando-graficos.html#forma-desorganizada-12",
+    "title": "Conhecendo Gráficos",
+    "section": "Forma desorganizada (1/2)",
+    "text": "Forma desorganizada (1/2)\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrande Região\n60 anos ou mais\n40 a 59 anos\n25 a 39 anos\n18 a 24 anos\n14 a 17 anos\n\n\n\n\nSudeste\n4.9\n7.0\n10.3\n24.0\n45.8\n\n\nSul\n3.0\n3.8\n5.5\n14.8\n34.5"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#forma-desorganizada-22",
+    "href": "presentations/avaliando-graficos.html#forma-desorganizada-22",
+    "title": "Conhecendo Gráficos",
+    "section": "Forma desorganizada (2/2)",
+    "text": "Forma desorganizada (2/2)\n\n\n\n\n\nGrupo de idade\nSudeste\nSul\n\n\n\n\n60 anos ou mais\n4.9\n3.0\n\n\n40 a 59 anos\n7.0\n3.8\n\n\n25 a 39 anos\n10.3\n5.5\n\n\n18 a 24 anos\n24.0\n14.8\n\n\n14 a 17 anos\n45.8\n34.5"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#variáveis-de-novo",
+    "href": "presentations/avaliando-graficos.html#variáveis-de-novo",
+    "title": "Conhecendo Gráficos",
+    "section": "3 variáveis (de novo!)",
+    "text": "3 variáveis (de novo!)\n\n\n\n\n\nTaxa de desemprego (4T/2019)\n\n\nGrupo de idade\nDesocupação (%)\nGrande Região\n\n\n\n\n60 anos ou mais\n4.9\nSudeste\n\n\n40 a 59 anos\n7.0\nSudeste\n\n\n25 a 39 anos\n10.3\nSudeste\n\n\n18 a 24 anos\n24.0\nSudeste\n\n\n14 a 17 anos\n45.8\nSudeste\n\n\n60 anos ou mais\n3.0\nSul\n\n\n40 a 59 anos\n3.8\nSul\n\n\n25 a 39 anos\n5.5\nSul\n\n\n18 a 24 anos\n14.8\nSul\n\n\n14 a 17 anos\n34.5\nSul"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#simplificando-tabelas-de-novo",
+    "href": "presentations/avaliando-graficos.html#simplificando-tabelas-de-novo",
+    "title": "Conhecendo Gráficos",
+    "section": "Simplificando tabelas (de novo!)",
+    "text": "Simplificando tabelas (de novo!)\n\nDados da PNADC/TGráfico\n\n\n\n\n\n\nFonte: IBGE.\n\n\n\n\n\n\n\n\n\nGrande Região\nTrimestre\nGrupo de idade\nRendimento\nHoras\n\n\n\n\nNorte\n4º trimestre 2019\nTotal\n2144\n36.9\n\n\nNorte\n4º trimestre 2019\n14 a 17 anos\n555\n24.7\n\n\nNorte\n4º trimestre 2019\n18 a 24 anos\n1263\n36.0\n\n\nNorte\n4º trimestre 2019\n25 a 39 anos\n2081\n37.6\n\n\nNorte\n4º trimestre 2019\n40 a 59 anos\n2494\n37.5\n\n\nNorte\n4º trimestre 2019\n60 anos ou mais\n2746\n35.0\n\n\nNordeste\n4º trimestre 2019\nTotal\n1965\n36.9\n\n\nNordeste\n4º trimestre 2019\n14 a 17 anos\n468\n23.9\n\n\nNordeste\n4º trimestre 2019\n18 a 24 anos\n1071\n35.3\n\n\nNordeste\n4º trimestre 2019\n25 a 39 anos\n1964\n37.7\n\n\nNordeste\n4º trimestre 2019\n40 a 59 anos\n2203\n37.3\n\n\nNordeste\n4º trimestre 2019\n60 anos ou mais\n2609\n34.6\n\n\nSudeste\n4º trimestre 2019\nTotal\n3276\n40.1\n\n\nSudeste\n4º trimestre 2019\n14 a 17 anos\n773\n26.1\n\n\nSudeste\n4º trimestre 2019\n18 a 24 anos\n1659\n38.9\n\n\nSudeste\n4º trimestre 2019\n25 a 39 anos\n3284\n41.1\n\n\nSudeste\n4º trimestre 2019\n40 a 59 anos\n3734\n40.7\n\n\nSudeste\n4º trimestre 2019\n60 anos ou mais\n3965\n36.9\n\n\nSul\n4º trimestre 2019\nTotal\n3175\n40.1\n\n\nSul\n4º trimestre 2019\n14 a 17 anos\n947\n27.3\n\n\nSul\n4º trimestre 2019\n18 a 24 anos\n1834\n39.3\n\n\nSul\n4º trimestre 2019\n25 a 39 anos\n3111\n41.1\n\n\nSul\n4º trimestre 2019\n40 a 59 anos\n3706\n40.7\n\n\nSul\n4º trimestre 2019\n60 anos ou mais\n3792\n36.7\n\n\nCentro-Oeste\n4º trimestre 2019\nTotal\n3165\n39.7\n\n\nCentro-Oeste\n4º trimestre 2019\n14 a 17 anos\n847\n28.0\n\n\nCentro-Oeste\n4º trimestre 2019\n18 a 24 anos\n1719\n39.4\n\n\nCentro-Oeste\n4º trimestre 2019\n25 a 39 anos\n3178\n40.4\n\n\nCentro-Oeste\n4º trimestre 2019\n40 a 59 anos\n3681\n40.1\n\n\nCentro-Oeste\n4º trimestre 2019\n60 anos ou mais\n3672\n37.3\n\n\n\n\n\n\n\n\n\n\n\n\n\nFonte: IBGE."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráficos-a-todo-instante",
+    "href": "presentations/avaliando-graficos.html#gráficos-a-todo-instante",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráficos a todo instante",
+    "text": "Gráficos a todo instante\nNa próxima semana, salvem os gráficos que virem.\n\n\n\n\n\nUsaremos como material de análise para a próxima semana!"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráficos-em-casa",
+    "href": "presentations/avaliando-graficos.html#gráficos-em-casa",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráficos em casa",
+    "text": "Gráficos em casa\n\n\n\nAvaliem o Relatório Multicidades e analisem um gráfico/tabela à luz do que vimos hoje!"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#revisão-do-primeiro-episódio-diretrizes-gerais",
+    "href": "presentations/avaliando-graficos.html#revisão-do-primeiro-episódio-diretrizes-gerais",
+    "title": "Conhecendo Gráficos",
+    "section": "Revisão do primeiro episódio (diretrizes gerais)",
+    "text": "Revisão do primeiro episódio (diretrizes gerais)\n\n\n\nEntenda o contexto (quem, o que e como?)\nEscolha o formato apropriado de apresentação\nElimite todo o excesso de informação\nChame atenção para o que você deseja enfatizar\nConte uma história completa"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#section",
+    "href": "presentations/avaliando-graficos.html#section",
+    "title": "Conhecendo Gráficos",
+    "section": "",
+    "text": "“Eu teria escrito uma carta mais curta, mas não tive tempo.”\n\nBlaise Pascal"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#section-1",
+    "href": "presentations/avaliando-graficos.html#section-1",
+    "title": "Conhecendo Gráficos",
+    "section": "",
+    "text": "Eu teria feito um gráfico mais simples, mas não tive tempo."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#use-elementos-pré-atentivos",
+    "href": "presentations/avaliando-graficos.html#use-elementos-pré-atentivos",
+    "title": "Conhecendo Gráficos",
+    "section": "Use elementos pré-atentivos",
+    "text": "Use elementos pré-atentivos\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#use-elementos-pré-atentivos-1",
+    "href": "presentations/avaliando-graficos.html#use-elementos-pré-atentivos-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Use elementos pré-atentivos",
+    "text": "Use elementos pré-atentivos\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-de-dispersão-de-pontos",
+    "href": "presentations/avaliando-graficos.html#gráfico-de-dispersão-de-pontos",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico de dispersão (de pontos)",
+    "text": "Gráfico de dispersão (de pontos)"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-de-dispersão-conectado",
+    "href": "presentations/avaliando-graficos.html#gráfico-de-dispersão-conectado",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico de dispersão conectado",
+    "text": "Gráfico de dispersão conectado"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-de-linhas",
+    "href": "presentations/avaliando-graficos.html#gráfico-de-linhas",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico de linhas",
+    "text": "Gráfico de linhas\n\n\nVeja mais: DataViz"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-de-barras",
+    "href": "presentations/avaliando-graficos.html#gráfico-de-barras",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico de barras",
+    "text": "Gráfico de barras"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-de-área-empilhada",
+    "href": "presentations/avaliando-graficos.html#gráfico-de-área-empilhada",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico de área empilhada",
+    "text": "Gráfico de área empilhada\n\n\nVeja mais em https://engenheiradoexcel.com.br/grafico-de-linha-no-excel/"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#mapa-coroplético",
+    "href": "presentations/avaliando-graficos.html#mapa-coroplético",
+    "title": "Conhecendo Gráficos",
+    "section": "Mapa coroplético",
+    "text": "Mapa coroplético\n\n\nVeja mais em Verbete Wikipedia"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#mapa-de-bolhas",
+    "href": "presentations/avaliando-graficos.html#mapa-de-bolhas",
+    "title": "Conhecendo Gráficos",
+    "section": "Mapa de bolhas",
+    "text": "Mapa de bolhas\n\n\nVeja mais em https://wgicouncil.org/blogs/new-who-covid-19-maps-dashboard/"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-de-pizza",
+    "href": "presentations/avaliando-graficos.html#gráfico-de-pizza",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico de pizza",
+    "text": "Gráfico de pizza\n\n\nVeja mais em Excel Easy"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#ferramenta-de-consulta",
+    "href": "presentations/avaliando-graficos.html#ferramenta-de-consulta",
+    "title": "Conhecendo Gráficos",
+    "section": "Ferramenta de consulta",
+    "text": "Ferramenta de consulta\n\n\n\nFromDataToViz\n\n\nFromDataToViz (traduzido)\n\n\n\nDataViz\n\n\nDataViz (traduzido)"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-pontos-conectados-errado",
+    "href": "presentations/avaliando-graficos.html#gráfico-pontos-conectados-errado",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico pontos conectados (errado)",
+    "text": "Gráfico pontos conectados (errado)\n\n\nLearn more: Posgraduando"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-correto",
+    "href": "presentations/avaliando-graficos.html#gráfico-correto",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico correto",
+    "text": "Gráfico correto\n\n\nLearn more: Posgraduando"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#barras-que-não-começam-do-zero",
+    "href": "presentations/avaliando-graficos.html#barras-que-não-começam-do-zero",
+    "title": "Conhecendo Gráficos",
+    "section": "Barras que não começam do zero",
+    "text": "Barras que não começam do zero\n\n\nVeja mais em: Cole Nussbaumer Knaflic. Storytelling with Data."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#linha-que-não-começa-do-zero",
+    "href": "presentations/avaliando-graficos.html#linha-que-não-começa-do-zero",
+    "title": "Conhecendo Gráficos",
+    "section": "Linha que não começa do zero",
+    "text": "Linha que não começa do zero\n\n\nLearn more: Posgraduando"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#linha-que-não-começa-do-zero-1",
+    "href": "presentations/avaliando-graficos.html#linha-que-não-começa-do-zero-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Linha que não começa do zero",
+    "text": "Linha que não começa do zero\n\n\n\n\n\n\n\n\nLearn more: Posgraduando"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráficos-de-área-enganam-pessoas",
+    "href": "presentations/avaliando-graficos.html#gráficos-de-área-enganam-pessoas",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráficos de área enganam pessoas",
+    "text": "Gráficos de área enganam pessoas\n\n\nLearn more: Venngage"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#onde-está-o-erro",
+    "href": "presentations/avaliando-graficos.html#onde-está-o-erro",
+    "title": "Conhecendo Gráficos",
+    "section": "Onde está o erro?",
+    "text": "Onde está o erro?"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-de-áreas-de-círculos",
+    "href": "presentations/avaliando-graficos.html#gráfico-de-áreas-de-círculos",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico de áreas de círculos",
+    "text": "Gráfico de áreas de círculos\n\n\nVeja mais em: DataViz"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-em-3d",
+    "href": "presentations/avaliando-graficos.html#gráfico-em-3d",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico em 3D",
+    "text": "Gráfico em 3D\n\n\nVeja mais em: Podfeet Podcasts"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-em-3d-1",
+    "href": "presentations/avaliando-graficos.html#gráfico-em-3d-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico em 3D",
+    "text": "Gráfico em 3D\n\n\nVeja mais em: DataViz"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#nenhum-gráfico-fica-bom-se-a-informação-é-dúbia",
+    "href": "presentations/avaliando-graficos.html#nenhum-gráfico-fica-bom-se-a-informação-é-dúbia",
+    "title": "Conhecendo Gráficos",
+    "section": "Nenhum gráfico fica bom se a informação é dúbia",
+    "text": "Nenhum gráfico fica bom se a informação é dúbia\n\n\nVeja mais em: Ross Ihaka"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-mais-complexo-que-sua-fonte",
+    "href": "presentations/avaliando-graficos.html#gráfico-mais-complexo-que-sua-fonte",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico mais complexo que sua fonte",
+    "text": "Gráfico mais complexo que sua fonte\n\n\n\n\n\nEstudantes do EM com mais de 25 anos\n\n\n\n\n\nVeja mais em: Ross Ihaka\n\n\nLearn more: Tabsets"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#não-se-deve-distorcer-informações",
+    "href": "presentations/avaliando-graficos.html#não-se-deve-distorcer-informações",
+    "title": "Conhecendo Gráficos",
+    "section": "Não se deve distorcer informações",
+    "text": "Não se deve distorcer informações\n\nDistorçãoCorreto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVeja mais em: Ross Ihaka"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#excesso-de-criatividade",
+    "href": "presentations/avaliando-graficos.html#excesso-de-criatividade",
+    "title": "Conhecendo Gráficos",
+    "section": "Excesso de criatividade",
+    "text": "Excesso de criatividade\n\n\nLearn more: Venngage"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#section-2",
+    "href": "presentations/avaliando-graficos.html#section-2",
+    "title": "Conhecendo Gráficos",
+    "section": "",
+    "text": "Título orignal: O preço de todos os produtos caíram desde o lançamento do produto C em 2010"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#entenda-o-contexto",
+    "href": "presentations/avaliando-graficos.html#entenda-o-contexto",
+    "title": "Conhecendo Gráficos",
+    "section": "Entenda o contexto",
+    "text": "Entenda o contexto\n\n\nQuem? Vice-presidente de produtos, que decidirá o preço.\nO que? Entender como o preço dos competidores evoluiu e sugerir um intervalo de preços.\nComo? Mostrar a evolução dos preços médios dos produtos ao longo do tempo."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-1",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-2",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-2",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-3",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-3",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-4",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-4",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-5",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-5",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-6",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-6",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-7",
+    "href": "presentations/avaliando-graficos.html#formato-apropriado-de-apresentação-7",
+    "title": "Conhecendo Gráficos",
+    "section": "Formato apropriado de apresentação",
+    "text": "Formato apropriado de apresentação"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#eliminar-todo-excesso",
+    "href": "presentations/avaliando-graficos.html#eliminar-todo-excesso",
+    "title": "Conhecendo Gráficos",
+    "section": "Eliminar todo excesso",
+    "text": "Eliminar todo excesso"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#eliminar-todo-excesso-1",
+    "href": "presentations/avaliando-graficos.html#eliminar-todo-excesso-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Eliminar todo excesso",
+    "text": "Eliminar todo excesso"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar",
+    "href": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar",
+    "title": "Conhecendo Gráficos",
+    "section": "Chamar atenção para o que você deseja enfatizar",
+    "text": "Chamar atenção para o que você deseja enfatizar"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-1",
+    "href": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Chamar atenção para o que você deseja enfatizar",
+    "text": "Chamar atenção para o que você deseja enfatizar"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-2",
+    "href": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-2",
+    "title": "Conhecendo Gráficos",
+    "section": "Chamar atenção para o que você deseja enfatizar",
+    "text": "Chamar atenção para o que você deseja enfatizar"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-3",
+    "href": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-3",
+    "title": "Conhecendo Gráficos",
+    "section": "Chamar atenção para o que você deseja enfatizar",
+    "text": "Chamar atenção para o que você deseja enfatizar"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-4",
+    "href": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-4",
+    "title": "Conhecendo Gráficos",
+    "section": "Chamar atenção para o que você deseja enfatizar",
+    "text": "Chamar atenção para o que você deseja enfatizar"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-5",
+    "href": "presentations/avaliando-graficos.html#chamar-atenção-para-o-que-você-deseja-enfatizar-5",
+    "title": "Conhecendo Gráficos",
+    "section": "Chamar atenção para o que você deseja enfatizar",
+    "text": "Chamar atenção para o que você deseja enfatizar"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#contar-uma-história-completa",
+    "href": "presentations/avaliando-graficos.html#contar-uma-história-completa",
+    "title": "Conhecendo Gráficos",
+    "section": "Contar uma história completa",
+    "text": "Contar uma história completa"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#section-9",
+    "href": "presentations/avaliando-graficos.html#section-9",
+    "title": "Conhecendo Gráficos",
+    "section": "",
+    "text": "AVG = 231"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#antes-e-depois",
+    "href": "presentations/avaliando-graficos.html#antes-e-depois",
+    "title": "Conhecendo Gráficos",
+    "section": "Antes e depois",
+    "text": "Antes e depois\n\n\n\n\n\n\n\n\n\n\nAVG = 231"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#gráfico-eficiente-1",
+    "href": "presentations/avaliando-graficos.html#gráfico-eficiente-1",
+    "title": "Conhecendo Gráficos",
+    "section": "Gráfico eficiente",
+    "text": "Gráfico eficiente\n\n\n\nConta uma história com início, meio e fim;\nTodos elementos têm um objetivo;\nPossui sentido completo; e\nAjuda a convencer quem o lê."
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#como-consultar-sobre-gráficos",
+    "href": "presentations/avaliando-graficos.html#como-consultar-sobre-gráficos",
+    "title": "Conhecendo Gráficos",
+    "section": "Como consultar sobre gráficos",
+    "text": "Como consultar sobre gráficos\n\nchatGPT"
+  },
+  {
+    "objectID": "presentations/avaliando-graficos.html#referências-úteis",
+    "href": "presentations/avaliando-graficos.html#referências-úteis",
+    "title": "Conhecendo Gráficos",
+    "section": "Referências úteis",
+    "text": "Referências úteis\n\nCole Nussbaumer Knaflic. Storytelling with Data: A Data Visualization Guide for Business Professionals\nAndy Kirk. Data Visualisation: A Handbook For Data Driven Design (2019)\nClaus O. Wilke. Fundamentals of Data Visualization\nBons exemplos\nMaus exemplos"
+  },
+  {
+    "objectID": "publications/books.html",
+    "href": "publications/books.html",
+    "title": "Books and Chapters",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "publications/talks.html",
+    "href": "publications/talks.html",
+    "title": "Talks and Posters",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rafael de Acypreste",
+    "section": "",
+    "text": "I am PhD in Economics at the University of Brasília, Brazil. Undergrad student in Statistcs.\nThese are my personal notes on Statistics, Econometrics, Machine Learning and Policy Evaluation. I am also interested in inequality, taxation and disability rights.\nEu sou Doutor em Economia pela Universidade de Brasília. Graduando em Estatística.\nEstas são minhas notas pessoais sobre Estatística, Econometria, Aprendizado de Máquina e Avaliação de Políticas Públicas. Também me interesso por desigualdade, tributação e direitos das pessoas com deficiência."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Rafael de Acypreste",
+    "section": "Education",
+    "text": "Education\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Statistcs | Mar 2020 - present\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | PhD in Economics | Mar 2018 - Jan 2022\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | MSc in Law | Mar 2014 - Mar 2016\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Law | Mar 2008 - Mar 2013"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Rafael de Acypreste",
+    "section": "Experience",
+    "text": "Experience\nResearch and Statistcs Institute of Federal District (IPEDF, in Portuguese) | Data Scientist | Sept 2023 - present"
+  },
+  {
+    "objectID": "r-notes/r-notes-base.html",
+    "href": "r-notes/r-notes-base.html",
+    "title": "R notes",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "r-notes/r-notes-base.html#applications",
+    "href": "r-notes/r-notes-base.html#applications",
+    "title": "R notes",
+    "section": "Applications",
+    "text": "Applications\nIn construction"
   },
   {
     "objectID": "publications/papers.html",
@@ -35,52 +728,10 @@
     "text": "Law\nAcypreste, R. de e Costa, A. B. (2016) Ações de reintegração de posse contra o movimento dos trabalhadores sem teto: dicotomia entre propriedade e direito à moradia, Revista de Direito da Cidade, 8(4), p. 1825–1867. Go to Paper Download"
   },
   {
-    "objectID": "r-notes/r-notes-base.html",
-    "href": "r-notes/r-notes-base.html",
-    "title": "R notes",
-    "section": "",
-    "text": "In construction."
-  },
-  {
-    "objectID": "r-notes/r-notes-base.html#applications",
-    "href": "r-notes/r-notes-base.html#applications",
-    "title": "R notes",
-    "section": "Applications",
-    "text": "Applications\nIn construction"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rafael de Acypreste",
-    "section": "",
-    "text": "I am PhD in Economics at the University of Brasília, Brazil. Undergrad student in Statistcs.\nThese are my personal notes on Statistics, Econometrics, Machine Learning and Policy Evaluation. I am also interested in inequality, taxation and disability rights.\nEu sou Doutor em Economia pela Universidade de Brasília. Graduando em Estatística.\nEstas são minhas notas pessoais sobre Estatística, Econometria, Aprendizado de Máquina e Avaliação de Políticas Públicas. Também me interesso por desigualdade, tributação e direitos das pessoas com deficiência."
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Rafael de Acypreste",
-    "section": "Education",
-    "text": "Education\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Statistcs | Mar 2020 - present\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | PhD in Economics | Mar 2018 - Jan 2022\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | MSc in Law | Mar 2014 - Mar 2016\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Law | Mar 2008 - Mar 2013"
-  },
-  {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Rafael de Acypreste",
-    "section": "Experience",
-    "text": "Experience\nResearch and Statistcs Institute of Federal District (IPEDF, in Portuguese) | Data Scientist | Sept 2023 - present"
-  },
-  {
-    "objectID": "publications/talks.html",
-    "href": "publications/talks.html",
-    "title": "Talks and Posters",
-    "section": "",
-    "text": "In construction."
-  },
-  {
-    "objectID": "publications/books.html",
-    "href": "publications/books.html",
-    "title": "Books and Chapters",
-    "section": "",
-    "text": "In construction."
+    "objectID": "presentations/presentation-demo.html#secondary-topic",
+    "href": "presentations/presentation-demo.html#secondary-topic",
+    "title": "Presentation demo",
+    "section": "Secondary topic",
+    "text": "Secondary topic\nRemembering and trying to not get mad. last windows chance"
   }
 ]
