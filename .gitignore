@@ -9,6 +9,11 @@
 # User-specific files
 .Ruserdata
 
+# Check photo files in other directory
+*.png
+*.jpg
+*.jpeg
+
 # Example code in package build process
 *-Ex.R
 
