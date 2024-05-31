@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rafaeldeacypreste.github.io/presentations/avaliando-graficos.html</loc>
-    <lastmod>2024-02-19T23:57:58.692Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rafaeldeacypreste.github.io/publications/books.html</loc>
-    <lastmod>2024-02-19T23:57:47.784Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rafaeldeacypreste.github.io/publications/talks.html</loc>
-    <lastmod>2024-02-19T23:57:47.240Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rafaeldeacypreste.github.io/index.html</loc>
-    <lastmod>2024-02-19T23:57:46.840Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rafaeldeacypreste.github.io/r-notes/r-notes-base.html</loc>
-    <lastmod>2024-02-19T23:57:47.036Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rafaeldeacypreste.github.io/publications/papers.html</loc>
-    <lastmod>2024-02-19T23:57:47.460Z</lastmod>
+    <loc>https://rafaeldeacypreste.github.io/presentations/apresentacao-projeto-tcc.html</loc>
+    <lastmod>2024-05-31T17:55:38.244Z</lastmod>
   </url>
   <url>
     <loc>https://rafaeldeacypreste.github.io/presentations/presentation-demo.html</loc>
-    <lastmod>2024-02-19T23:57:48.092Z</lastmod>
+    <lastmod>2024-05-31T17:55:23.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/publications/papers.html</loc>
+    <lastmod>2024-05-31T17:55:23.564Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/r-notes/r-notes-base.html</loc>
+    <lastmod>2024-05-31T17:55:23.208Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/index.html</loc>
+    <lastmod>2024-05-31T17:55:23.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/publications/talks.html</loc>
+    <lastmod>2024-05-31T17:55:23.380Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/publications/books.html</loc>
+    <lastmod>2024-05-31T17:55:23.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rafaeldeacypreste.github.io/presentations/avaliando-graficos.html</loc>
+    <lastmod>2024-05-31T17:55:32.916Z</lastmod>
   </url>
 </urlset>
