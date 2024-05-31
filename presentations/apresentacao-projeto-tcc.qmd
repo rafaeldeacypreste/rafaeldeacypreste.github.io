@@ -1,0 +1,278 @@
+---
+title: "Impact analysis of the Fare-Free program on public transport"
+subtitle: "Research Project"
+author:
+  - name: Rafael de Acypreste
+    affiliation: 
+      - name: Estudante
+    url: https://rafaeldeacypreste.github.io/
+  - name: Thais Carvalho Valadares Rodrigues
+    affiliation: 
+      - name: Orientadora
+format:
+  revealjs: 
+    embed-resources: true
+    self-contained: true
+    slide-number: true
+    preview-links: auto
+    width: 1600
+    heigth: 900
+    scrollable: true
+    theme: black
+    logo: img/as_comp_CONT_NEG.png
+    css: styles.css
+    footer: Departamento de Estatística
+resources:
+  - demo.pdf
+bibliography: bibliography-ci.bib
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+
+---
+
+
+
+::: columns
+::: {.column width="50%"}
+
+
+::: {style="font-size: 1.5em"}
+
+::: {.callout-warning}
+## Tarifa Zero
+É um modelo de financiamento do transporte público coletivo que é financiado por [outras fontes de receita]{style="color: #8DF448"}, como impostos, taxas e pedágios, em vez de tarifas pagas pelos(as) passageiros(as).
+:::
+
+:::
+:::
+
+::: {.column width="50%"}
+![](img/mapa-tz.png){.relative top="250" left="10" width="600" height="550"}
+
+[108 municípios em maio de 2024](https://x.com/_danielsantini/status/1790749556650528832)
+:::
+:::
+
+
+
+---
+
+::: columns
+
+::: {.column width="35%"}
+::: {style="font-size: 0.8em"}
+::: {.nonincremental}
+![](img/formosa-para-todos.jpg){.relative top="250" left="10" width="500" height="500"}
+Formosa (2021)
+:::
+:::
+:::
+
+
+::: {.column width="65%"}
+::: {style="font-size: 0.8em"}
+![Tarifa Zero em Maricá-RJ](img/marica-tz.jpg){.relative top="250" left="10" width="500" height="280"} Maricá-RJ (2014)
+
+Luziânia-GO (2023)![Tarifa Zero em Luziânia-GO](img/luiziania-tz.jpg){.relative top="250" left="10" width="500" height="280"}
+
+:::
+:::
+
+:::
+
+
+
+
+## Motivação
+
+
+::: {style="font-size: 1.15em"}
+::: incremental
+- [Avaliação do Tarifa Zero]{style="color:#FBFF0A"}: encontrei apenas um estudo sobre de avaliação das experiências nacionais, de @piazza_avaliacao_2017
+- [Impacto na arrecadação]{style="color:#FBFF0A"}: trata-se de uma política que pode ser custosa ao Município, e muitos adotaram após a pandemia de COVID-19
+- [Avaliação causal]{style="color:#FBFF0A"}: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais
+:::
+::: 
+
+
+
+
+
+
+
+## Objetivos
+
+
+::: {style="margin-left: 2em"}
+::: incremental
+- [Objetivo geral]{style="text-decoration: underline"}: Avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal (ISS e outros)
+
+::: {style="font-size: 0.9em"}
+- [Objetivos específicos]{style="text-decoration: underline"}:
+
+  1- Organizar o banco de dados de variáveis relacionadas a políticas de transporte
+  
+  2- Identificar o modelo de causal mais adequado para avaliar as implicações da Tarifa-Zero na arrecadação tributária municipal
+
+  3- Comparar os municípios que adotaram o Tarifa-Zero, estabelecendo municípios que podem funcionar como contrafactual
+:::
+
+:::
+:::
+
+
+
+
+# Metodologia
+
+## Inferência causal
+
+::: columns
+::: {.column width="45%"}
+
+::: {style="font-size: 1.2em"}
+::: {.callout-note}
+## O problema da inferência causal: [contrafactual]{style="color: #7C0303"}
+O que teria acontecido ao Município se não tivesse implementado a Tarifa-Zero? 
+
+::: {style="font-size: 0.7em"}
+Alternativas: @mostly_harmless_econometrics, @PearlMackenzie18, @CALLAWAY2021200, @roth_whats_2023
+:::
+:::
+
+:::
+:::
+
+
+::: {.column width="55%"}
+::: {style="font-size: 1em; margin-top: 2em"}
+Resultados potenciais:
+
+\begin{equation} \label{eq-outcome-variable}
+Y_{i,t} = D_{i,t} \cdot Y_{i,t}(1) + (1 - D_{i,t}) \cdot Y_{i,t}(0)
+\end{equation}
+
+Efeito médio do tratamento nos tratados:
+\begin{equation} 
+\label{eq-counterfactual}
+   \tau_2 = \mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]
+\end{equation}
+:::
+:::
+:::
+
+
+## Viés de seleção e variáveis confundidoras
+
+
+
+```{r}
+#| results: "hide"
+#| fig-align: center
+#| out-width: 200%
+
+
+library(ggdag)
+library(ggplot2)
+
+tidy_ggdag <- dagify(
+  ISS ~ TZ + PIB,
+  TZ ~ PIB + Pop + Area + Tarifa,
+  Emp ~ ISS + TZ,
+  PIB ~ Pop + Area,
+  exposure = "TZ",
+  outcome = "ISS",
+labels = c(ISS = "Arrecadação\n de ISS",
+           TZ = "Tarifa-Zero",
+           PIB = "PIB",
+           Pop = "População",
+           Area = "Área do\n Município",
+           Emp = "Empregos\n formais",
+           Tarifa = "Tarifa (R$)")
+) %>%
+  tidy_dagitty(seed = 243)
+
+# ggdag(tidy_ggdag,
+#       use_labels = "label",
+#       text = FALSE) +
+# geom_dag_edges_fan() +
+# theme_dag()
+# 
+# 
+# ggdag_dseparated(tidy_ggdag,
+# use_labels = "label",
+# text = FALSE)
+# 
+# 
+# ggdag_adjustment_set(tidy_ggdag, node_size = 14) +
+#   theme(legend.position = "bottom")
+
+ggdag_parents(tidy_ggdag, "TZ",
+      use_labels = "label",
+text_size = 7,
+      text = FALSE) +
+  # theme(legend.position = "bottom") +
+  theme_dag_grey() +
+  theme(legend.position = "none")
+
+
+```
+
+
+
+## Variáveis de interesse (fontes)
+
+::: {style="font-size: 0.95em"}
+::: nonincremental
+- @Santini-FFPT-2024: lista de municípios que adotaram o Tarifa-Zero
+- [IPEA]{style="text-decoration: underline"}: dados de arrecadação tributária municipal
+- [IBGE]{style="text-decoration: underline"}: variáveis socioeconômicas: população, tamanho dos municípios, população em idade ativa
+- [Ministério dos Transportes]{style="text-decoration: underline"}: dados de transporte público e de frota veicular
+- [Ministério do Trabalho e Emprego]{style="text-decoration: underline"}: dados do trabalho formal
+- [Ministério da Saúde]{style="text-decoration: underline"}: dados de saúde relacionados a mortalidade e morbidade no trânsito
+:::
+:::
+
+## Diferenças-em-Diferenças (Diff-in-Diff)
+
+
+
+
+
+::: columns
+::: {.column width="70%"}
+::: {style="font-size: 1em; margin-top: 1.5em"}
+Consiste em tomar a [diferença]{style="color:#FBFF0A"} entre a média do tratamento e do controle antes e depois da implementação da política e, depois, [subtrair]{style="color:#FBFF0A"} essas diferenças.
+:::
+:::
+
+
+
+
+::: {.column width="30%"}
+::: {style="font-size: 1em; margin-top: 1em"}
+![](img/did-logo.png){.relative top="250" left="10" width="500" height="280"} 
+:::
+:::
+:::
+
+
+
+\begin{equation} \label{eq-did-estimator}
+\begin{split}
+    \tau_2 & = \mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1] \\
+     & = \mathbb{E}[Y_{i,2} \color{#FBFF0A}{-} Y_{i,1}| \boldsymbol{X}, D_{i,2} = 1] \color{#FBFF0A}{-} \mathbb{E}[Y_{i,2} \color{#FBFF0A}{-} Y_{i,1} | \boldsymbol{X}, D_{i,2} = 0]
+\end{split}
+\end{equation}
+
+
+
+# Referências
+
+::: {style="font-size: 1.5em; margin-top: 1em"}
+
+::: 

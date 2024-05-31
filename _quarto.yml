@@ -19,6 +19,8 @@ website:
       - text: Presentations
         menu:
           - presentations/avaliando-graficos.qmd
+          - href: presentations/apresentacao-projeto-tcc.qmd
+            text: Fare-Free Research Project           
       - text: R notes
         menu:
           - r-notes/r-notes-base.qmd
