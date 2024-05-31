@@ -180,10 +180,10 @@ library(ggdag)
 library(ggplot2)
 
 tidy_ggdag <- dagify(
-  ISS ~ TZ + PIB,
+  ISS ~ TZ + PIB + Pop,
   TZ ~ PIB + Pop + Area + Tarifa,
   Emp ~ ISS + TZ,
-  PIB ~ Pop + Area,
+  PIB ~ Area,
   exposure = "TZ",
   outcome = "ISS",
 labels = c(ISS = "Arrecadação\n de ISS",
@@ -194,7 +194,7 @@ labels = c(ISS = "Arrecadação\n de ISS",
            Emp = "Empregos\n formais",
            Tarifa = "Tarifa (R$)")
 ) %>%
-  tidy_dagitty(seed = 243)
+  tidy_dagitty(seed = 2435)
 
 # ggdag(tidy_ggdag,
 #       use_labels = "label",
@@ -213,7 +213,7 @@ labels = c(ISS = "Arrecadação\n de ISS",
 
 ggdag_parents(tidy_ggdag, "TZ",
       use_labels = "label",
-text_size = 7,
+text_size = 5,
       text = FALSE) +
   # theme(legend.position = "bottom") +
   theme_dag_grey() +
