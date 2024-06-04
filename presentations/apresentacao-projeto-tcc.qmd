@@ -270,6 +270,24 @@ Consiste em tomar a [diferença]{style="color:#FBFF0A"} entre a média do tratam
 \end{equation}
 
 
+## Resultados parciais
+
+
+
+::: columns
+::: {.column width="55%"}
+![](img/fig-gdp-pop-dyn.png){.relative top="0" left="0" width="1000" height="500"}
+:::
+
+
+::: {.column width="45%"}
+![](img/fig-gdp-pop-group.png){.relative top="0" left="0" width="1000" height="500"}
+:::
+:::
+
+
+
+
 
 # Referências
 
