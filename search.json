@@ -42,6 +42,13 @@
     "text": "Diferenças-em-Diferenças (Diff-in-Diff)\n\n\n\nConsiste em tomar a diferença entre a média do tratamento e do controle antes e depois da implementação da política e, depois, subtrair essas diferenças.\n\n\n\n\n\n\n\n\\[\\begin{equation} \\label{eq-did-estimator}\n\\begin{split}\n    \\tau_2 & = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1] \\\\\n     & = \\mathbb{E}[Y_{i,2} \\color{#FBFF0A}{-} Y_{i,1}| \\boldsymbol{X}, D_{i,2} = 1] \\color{#FBFF0A}{-} \\mathbb{E}[Y_{i,2} \\color{#FBFF0A}{-} Y_{i,1} | \\boldsymbol{X}, D_{i,2} = 0]\n\\end{split}\n\\end{equation}\\]"
   },
   {
+    "objectID": "presentations/apresentacao-projeto-tcc.html#resultados-parciais",
+    "href": "presentations/apresentacao-projeto-tcc.html#resultados-parciais",
+    "title": "Impact analysis of the Fare-Free program on public transport",
+    "section": "Resultados parciais",
+    "text": "Resultados parciais"
+  },
+  {
     "objectID": "presentations/presentation-demo.html#secondary-topic",
     "href": "presentations/presentation-demo.html#secondary-topic",
     "title": "Presentation demo",
