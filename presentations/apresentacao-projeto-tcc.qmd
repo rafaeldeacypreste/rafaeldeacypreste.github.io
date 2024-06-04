@@ -6,7 +6,7 @@ author:
     affiliation: 
       - name: Estudante
     url: https://rafaeldeacypreste.github.io/
-  - name: Thais Carvalho Valadares Rodrigues
+  - name: Thais Carvalho
     affiliation: 
       - name: Orientadora
 format:
@@ -92,9 +92,9 @@ Luziânia-GO (2023)![Tarifa Zero em Luziânia-GO](img/luiziania-tz.jpg){.relativ
 
 ::: {style="font-size: 1.15em"}
 ::: incremental
-- [Avaliação do Tarifa Zero]{style="color:#FBFF0A"}: encontrei apenas um estudo sobre de avaliação das experiências nacionais, de @piazza_avaliacao_2017
-- [Impacto na arrecadação]{style="color:#FBFF0A"}: trata-se de uma política que pode ser custosa ao Município, e muitos adotaram após a pandemia de COVID-19
-- [Avaliação causal]{style="color:#FBFF0A"}: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais
+- [Avaliação do Tarifa Zero]{style="color:#FBFF0A"}: estudo sobre de avaliação das experiências nacionais de @piazza_avaliacao_2017;
+- [Impacto na arrecadação]{style="color:#FBFF0A"}: trata-se de uma política que pode ser custosa ao Município, e muitos adotaram após a pandemia de COVID-19; e
+- [Avaliação causal]{style="color:#FBFF0A"}: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais.
 :::
 ::: 
 
@@ -109,16 +109,16 @@ Luziânia-GO (2023)![Tarifa Zero em Luziânia-GO](img/luiziania-tz.jpg){.relativ
 
 ::: {style="margin-left: 2em"}
 ::: incremental
-- [Objetivo geral]{style="text-decoration: underline"}: Avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal (ISS e outros)
+- [Objetivo geral]{style="text-decoration: underline"}: Avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal (ISS e outros).
 
 ::: {style="font-size: 0.9em"}
 - [Objetivos específicos]{style="text-decoration: underline"}:
 
-  1- Organizar o banco de dados de variáveis relacionadas a políticas de transporte
+  1- Organizar o banco de dados de variáveis relacionadas a políticas de transporte;
   
-  2- Identificar o modelo de causal mais adequado para avaliar as implicações da Tarifa-Zero na arrecadação tributária municipal
+  2- Identificar o modelo causal mais adequado para avaliar as implicações da Tarifa-Zero na arrecadação tributária municipal; e
 
-  3- Comparar os municípios que adotaram o Tarifa-Zero, estabelecendo municípios que podem funcionar como contrafactual
+  3- Comparar os municípios que adotaram o Tarifa-Zero, estabelecendo municípios que podem funcionar como contrafactual.
 :::
 
 :::
@@ -156,7 +156,7 @@ Resultados potenciais:
 Y_{i,t} = D_{i,t} \cdot Y_{i,t}(1) + (1 - D_{i,t}) \cdot Y_{i,t}(0)
 \end{equation}
 
-Efeito médio do tratamento nos tratados:
+Efeito médio do tratamento nos tratados (ATT, na sigla em inglês):
 \begin{equation} 
 \label{eq-counterfactual}
    \tau_2 = \mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]
@@ -228,12 +228,12 @@ text_size = 5,
 
 ::: {style="font-size: 0.95em"}
 ::: nonincremental
-- @Santini-FFPT-2024: lista de municípios que adotaram o Tarifa-Zero
-- [IPEA]{style="text-decoration: underline"}: dados de arrecadação tributária municipal
-- [IBGE]{style="text-decoration: underline"}: variáveis socioeconômicas: população, tamanho dos municípios, população em idade ativa
-- [Ministério dos Transportes]{style="text-decoration: underline"}: dados de transporte público e de frota veicular
-- [Ministério do Trabalho e Emprego]{style="text-decoration: underline"}: dados do trabalho formal
-- [Ministério da Saúde]{style="text-decoration: underline"}: dados de saúde relacionados a mortalidade e morbidade no trânsito
+- @Santini-FFPT-2024: lista de municípios que adotaram o Tarifa-Zero;
+- [IPEA]{style="text-decoration: underline"}: dados de arrecadação tributária municipal;
+- [IBGE]{style="text-decoration: underline"}: variáveis socioeconômicas: população, tamanho dos municípios, população em idade ativa;
+- [Ministério dos Transportes]{style="text-decoration: underline"}: dados de transporte público e de frota veicular;
+- [Ministério do Trabalho e Emprego]{style="text-decoration: underline"}: dados do trabalho formal; e
+- [Ministério da Saúde]{style="text-decoration: underline"}: dados de saúde relacionados a mortalidade e morbidade no trânsito.
 :::
 :::
 
@@ -276,16 +276,32 @@ Consiste em tomar a [diferença]{style="color:#FBFF0A"} entre a média do tratam
 
 ::: columns
 ::: {.column width="55%"}
-![](img/fig-gdp-pop-dyn.png){.relative top="0" left="0" width="1000" height="500"}
+![](img/fig-gdp-pop-dyn.png){.relative top="0" left="0" width="1000" height="470"}
 :::
 
 
 ::: {.column width="45%"}
-![](img/fig-gdp-pop-group.png){.relative top="0" left="0" width="1000" height="500"}
+![](img/fig-gdp-pop-group.png){.relative top="0" left="0" width="1000" height="470"}
 :::
 :::
 
 
+*ATT* é a sigla em inglês para "efeito médio nos tratados".
+
+
+## Cronograma para 2/2024
+
+::: {style="font-size: 1em; margin-top: 1em"}
+| Atividades | Ago | Set | Out | Nov | Dez |
+|------------|-----|-----|-----|-----|-----|
+| Estimativas dos modelos | X | X | X | | |
+| Análise de sensitividade | | X | X | X | |
+| Comparação com outras análises de impacto | | | X | X | |
+| Seção de metodologia | | X | X | | |
+| Seção de resultados e discussões | | | X | X | |
+| Publicação do modelo no Github | | | | X | |
+| Apresentação do trabalho | | | | | X |
+:::
 
 
 
