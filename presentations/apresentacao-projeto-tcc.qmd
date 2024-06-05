@@ -92,7 +92,7 @@ Luziânia-GO (2023)![Tarifa Zero em Luziânia-GO](img/luiziania-tz.jpg){.relativ
 
 ::: {style="font-size: 1.15em"}
 ::: incremental
-- [Avaliação do Tarifa Zero]{style="color:#FBFF0A"}: estudo sobre de avaliação das experiências nacionais de @piazza_avaliacao_2017;
+- [Avaliação do Tarifa Zero]{style="color:#FBFF0A"}: avaliação das experiências nacionais de @piazza_avaliacao_2017;
 - [Impacto na arrecadação]{style="color:#FBFF0A"}: trata-se de uma política que pode ser custosa ao Município, e muitos adotaram após a pandemia de COVID-19; e
 - [Avaliação causal]{style="color:#FBFF0A"}: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais.
 :::
