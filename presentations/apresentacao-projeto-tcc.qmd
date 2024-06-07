@@ -51,9 +51,9 @@ editor_options:
 :::
 
 ::: {.column width="50%"}
-![](img/mapa-tz.png){.relative top="250" left="10" width="600" height="550"}
+![](img/mapa-tz.png){.relative top="250" left="10" width="600" height="500"}
 
-[108 municípios em maio de 2024](https://x.com/_danielsantini/status/1790749556650528832)
+[108 municípios em maio de 2024 (27 entre 2003 e 2019)](https://x.com/_danielsantini/status/1790749556650528832)
 :::
 :::
 
@@ -63,17 +63,18 @@ editor_options:
 
 ::: columns
 
-::: {.column width="35%"}
+::: {.column width="40%"}
 ::: {style="font-size: 0.8em"}
 ::: {.nonincremental}
 ![](img/formosa-para-todos.jpg){.relative top="250" left="10" width="500" height="500"}
+
 Formosa (2021)
 :::
 :::
 :::
 
 
-::: {.column width="65%"}
+::: {.column width="60%"}
 ::: {style="font-size: 0.8em"}
 ![Tarifa Zero em Maricá-RJ](img/marica-tz.jpg){.relative top="250" left="10" width="500" height="280"} Maricá-RJ (2014)
 
@@ -182,11 +183,12 @@ library(ggplot2)
 tidy_ggdag <- dagify(
   ISS ~ TZ + PIB + Pop,
   TZ ~ PIB + Pop + Area + Tarifa,
+  Tarifa ~ Area,
   Emp ~ ISS + TZ,
-  PIB ~ Area,
+  PIB ~ Area + Pop,
   exposure = "TZ",
   outcome = "ISS",
-labels = c(ISS = "Arrecadação\n de ISS",
+labels = c(ISS = "ISS",
            TZ = "Tarifa-Zero",
            PIB = "PIB",
            Pop = "População",
@@ -194,7 +196,7 @@ labels = c(ISS = "Arrecadação\n de ISS",
            Emp = "Empregos\n formais",
            Tarifa = "Tarifa (R$)")
 ) %>%
-  tidy_dagitty(seed = 2435)
+  tidy_dagitty(seed = 4567)
 
 # ggdag(tidy_ggdag,
 #       use_labels = "label",
@@ -213,7 +215,7 @@ labels = c(ISS = "Arrecadação\n de ISS",
 
 ggdag_parents(tidy_ggdag, "TZ",
       use_labels = "label",
-text_size = 5,
+text_size = 4,
       text = FALSE) +
   # theme(legend.position = "bottom") +
   theme_dag_grey() +
