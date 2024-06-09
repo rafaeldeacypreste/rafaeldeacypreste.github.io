@@ -1,6 +1,6 @@
 ---
-title: "Impact analysis of the Fare-Free program on public transport"
-subtitle: "Research Project"
+title: "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária"
+subtitle: "Projeto de Pesquisa"
 author:
   - name: Rafael de Acypreste
     affiliation: 
@@ -42,9 +42,9 @@ editor_options:
 
 ::: {style="font-size: 1.5em"}
 
-::: {.callout-warning}
+::: {.callout-note}
 ## Tarifa Zero
-É um modelo de financiamento do transporte público coletivo que é financiado por [outras fontes de receita]{style="color: #8DF448"}, como impostos, taxas e pedágios, em vez de tarifas pagas pelos(as) passageiros(as).
+É um modelo de financiamento do transporte público coletivo que é financiado por [outras fontes de receita]{style="color:#FBFF0A"}, como impostos, taxas e pedágios, em vez de tarifas pagas pelos(as) passageiros(as).
 :::
 
 :::
@@ -53,7 +53,7 @@ editor_options:
 ::: {.column width="50%"}
 ![](img/mapa-tz.png){.relative top="250" left="10" width="600" height="500"}
 
-[108 municípios em maio de 2024 (27 entre 2003 e 2019)](https://x.com/_danielsantini/status/1790749556650528832)
+[108 municípios em maio de 2024](https://x.com/_danielsantini/status/1790749556650528832)
 :::
 :::
 
@@ -66,7 +66,7 @@ editor_options:
 ::: {.column width="25%"}
 ::: {style="font-size: 1em"}
 ::: {.nonincremental}
-![](img/formosa-para-todos.jpg){.relative top="250" left="10" width="300" height="400"} 
+![](img/formosa-para-todos.jpg){.relative top="250" left="10" height="400"} 
 
 Formosa-GO (2021)
 :::
@@ -75,14 +75,14 @@ Formosa-GO (2021)
 
 
 ::: {.column width="25%"}
-![](img/luiziania-tz.jpg){.relative width="300" height="400"}
+![](img/luiziania-tz.jpg){.relative height="400"}
 
 Luziânia-GO (2023)
 :::
 
 ::: {.column width="50%"}
 ::: {style="font-size: 0.8em"}
-![](img/plot_staggered.png){.relative top="0" left="0" width="1000" height="470"}
+![](img/plot_staggered.png){.relative top="0" left="0" height="500"}
 :::
 :::
 
@@ -113,10 +113,10 @@ Luziânia-GO (2023)
 
 ::: {style="margin-left: 2em"}
 ::: incremental
-- [Objetivo geral]{style="text-decoration: underline"}: Avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal (ISS e outros).
+- [Objetivo geral]{style="color:#FBFF0A"}: Avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal (ISS e outros).
 
 ::: {style="font-size: 0.9em"}
-- [Objetivos específicos]{style="text-decoration: underline"}:
+- [Objetivos específicos]{style="color:#FBFF0A"}:
 
   1- Organizar o banco de dados de variáveis relacionadas a políticas de transporte;
   
@@ -154,7 +154,7 @@ Alternativas: @mostly_harmless_econometrics, @PearlMackenzie18, @CALLAWAY2021200
 
 ::: {.column width="55%"}
 ::: {style="font-size: 1em; margin-top: 2em"}
-Efeito médio do tratamento nos tratados (ATT, na sigla em inglês):
+Efeito médio do tratamento nos tratados (ETT):
 \begin{equation} 
 \label{eq-counterfactual}
    \tau_2 = \mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]
@@ -225,14 +225,14 @@ text_size = 4,
 
 ## Variáveis de interesse (fontes)
 
-::: {style="font-size: 0.95em"}
+::: {style="font-size: 1.2em; margin-left: 1.5em"}
 ::: nonincremental
-- @Santini-FFPT-2024: lista de municípios que adotaram o Tarifa-Zero;
-- [IPEA]{style="text-decoration: underline"}: dados de arrecadação tributária municipal;
-- [IBGE]{style="text-decoration: underline"}: variáveis socioeconômicas: população, tamanho dos municípios, população em idade ativa;
-- [Ministério dos Transportes]{style="text-decoration: underline"}: dados de transporte público e de frota veicular;
-- [Ministério do Trabalho e Emprego]{style="text-decoration: underline"}: dados do trabalho formal; e
-- [Ministério da Saúde]{style="text-decoration: underline"}: dados de saúde relacionados a mortalidade e morbidade no trânsito.
+- Municípios que adotaram o Tarifa-Zero [@Santini-FFPT-2024];
+- Arrecadação tributária municipal (IPEA);
+- Variáveis demográficas: população e tamanho dos municípios (IBGE);
+- Frota veicular (Ministério dos Transportes);
+- Trabalho formal (Ministério do Trabalho e Emprego); e
+- Mortalidade e morbidade no trânsito (Ministério da Saúde).
 :::
 :::
 
@@ -254,7 +254,7 @@ Consiste em tomar a [diferença]{style="color:#FBFF0A"} entre a média do tratam
 
 ::: {.column width="30%"}
 ::: {style="font-size: 1em; margin-top: 1em"}
-![](img/did-logo.png){.relative top="250" left="10" width="500" height="280"} 
+![](img/did-logo.png){.relative top="250" left="10" height="250"} 
 :::
 :::
 :::
@@ -274,18 +274,17 @@ Consiste em tomar a [diferença]{style="color:#FBFF0A"} entre a média do tratam
 
 
 ::: columns
-::: {.column width="55%"}
-![](img/fig-gdp-pop-dyn.png){.relative top="0" left="0" width="1000" height="470"}
+::: {.column width="50%"}
+![](img/fig-gdp-pop-dyn.png){.relative top="0" left="0" height="530"}
 :::
 
 
-::: {.column width="45%"}
-![](img/fig-gdp-pop-group.png){.relative top="0" left="0" width="1000" height="470"}
+::: {.column width="50%"}
+![](img/fig-gdp-pop-group.png){.relative top="0" left="0" height="530"}
 :::
 :::
 
 
-*ATT* é a sigla em inglês para "efeito médio nos tratados".
 
 
 ## Cronograma para 2/2024
