@@ -4,7 +4,7 @@
     "href": "presentations/apresentacao-projeto-tcc.html#motivação",
     "title": "Impact analysis of the Fare-Free program on public transport",
     "section": "Motivação",
-    "text": "Motivação\n\n\n\nAvaliação do Tarifa Zero: avaliação das experiências nacionais de Piazza (2017);\nImpacto na arrecadação: trata-se de uma política que pode ser custosa ao Município, e muitos adotaram após a pandemia de COVID-19; e\nAvaliação causal: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais."
+    "text": "Motivação\n\n\n\nAvaliação do Tarifa Zero: avaliação das experiências nacionais de Carolina Piazza (2017);\nImpacto na arrecadação: trata-se de uma política que pode ser custosa ao Município; e\nAvaliação causal: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais."
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#objetivos",
@@ -18,7 +18,7 @@
     "href": "presentations/apresentacao-projeto-tcc.html#inferência-causal",
     "title": "Impact analysis of the Fare-Free program on public transport",
     "section": "Inferência causal",
-    "text": "Inferência causal\n\n\n\n\n\n\n\n\n\nO problema da inferência causal: contrafactual\n\n\nO que teria acontecido ao Município se não tivesse implementado a Tarifa-Zero?\n\nAlternativas: Angrist and Pischke (2009), Pearl and Mackenzie (2018), Callaway and Sant’Anna (2021), Roth et al. (2023)\n\n\n\n\n\n\n\nResultados potenciais:\n\\[\\begin{equation} \\label{eq-outcome-variable}\nY_{i,t} = D_{i,t} \\cdot Y_{i,t}(1) + (1 - D_{i,t}) \\cdot Y_{i,t}(0)\n\\end{equation}\\]\nEfeito médio do tratamento nos tratados (ATT, na sigla em inglês): \\[\\begin{equation}\n\\label{eq-counterfactual}\n   \\tau_2 = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]\n\\end{equation}\\]"
+    "text": "Inferência causal\n\n\n\n\n\n\n\n\n\nO problema da inferência causal: contrafactual\n\n\nO que teria acontecido ao Município se não tivesse implementado a Tarifa-Zero?\n\nAlternativas: Angrist and Pischke (2009), Pearl and Mackenzie (2018), Callaway and Sant’Anna (2021), Roth et al. (2023)\n\n\n\n\n\n\n\nEfeito médio do tratamento nos tratados (ATT, na sigla em inglês): \\[\\begin{equation}\n\\label{eq-counterfactual}\n   \\tau_2 = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]\n\\end{equation}\\]"
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#viés-de-seleção-e-variáveis-confundidoras",
@@ -53,7 +53,7 @@
     "href": "presentations/apresentacao-projeto-tcc.html#cronograma-para-22024",
     "title": "Impact analysis of the Fare-Free program on public transport",
     "section": "Cronograma para 2/2024",
-    "text": "Cronograma para 2/2024\n\n\n\n\nAtividades\nAgo\nSet\nOut\nNov\nDez\n\n\n\n\nEstimativas dos modelos\nX\nX\nX\n\n\n\n\nAnálise de sensitividade\n\nX\nX\nX\n\n\n\nComparação com outras análises de impacto\n\n\nX\nX\n\n\n\nSeção de metodologia\n\nX\nX\n\n\n\n\nSeção de resultados e discussões\n\n\nX\nX\n\n\n\nPublicação do modelo no Github\n\n\n\nX\n\n\n\nApresentação do trabalho\n\n\n\n\nX"
+    "text": "Cronograma para 2/2024\n\n\n\n\nAtividades\nJul\nAgo\nSet\nOut\nNov\n\n\n\n\nEstimativas dos modelos\nX\nX\nX\n\n\n\n\nAnálise de sensitividade\n\nX\nX\nX\n\n\n\nComparação com outras análises de impacto\n\n\nX\nX\n\n\n\nSeção de metodologia\n\nX\nX\n\n\n\n\nSeção de resultados e discussões\n\n\nX\nX\n\n\n\nPublicação do modelo no Github\n\n\n\nX\n\n\n\nApresentação do trabalho\n\n\n\n\nX"
   },
   {
     "objectID": "presentations/presentation-demo.html#secondary-topic",
