@@ -68,7 +68,7 @@ editor_options:
 ::: {.nonincremental}
 ![](img/formosa-para-todos.jpg){.relative top="250" left="10" width="500" height="500"}
 
-Formosa (2021)
+Formosa-GO (2021)
 :::
 :::
 :::
@@ -93,8 +93,8 @@ Luziânia-GO (2023)![Tarifa Zero em Luziânia-GO](img/luiziania-tz.jpg){.relativ
 
 ::: {style="font-size: 1.15em"}
 ::: incremental
-- [Avaliação do Tarifa Zero]{style="color:#FBFF0A"}: avaliação das experiências nacionais de @piazza_avaliacao_2017;
-- [Impacto na arrecadação]{style="color:#FBFF0A"}: trata-se de uma política que pode ser custosa ao Município, e muitos adotaram após a pandemia de COVID-19; e
+- [Avaliação do Tarifa Zero]{style="color:#FBFF0A"}: avaliação das experiências nacionais de Carolina @piazza_avaliacao_2017;
+- [Impacto na arrecadação]{style="color:#FBFF0A"}: trata-se de uma política que pode ser custosa ao Município; e
 - [Avaliação causal]{style="color:#FBFF0A"}: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais.
 :::
 ::: 
@@ -151,12 +151,6 @@ Alternativas: @mostly_harmless_econometrics, @PearlMackenzie18, @CALLAWAY2021200
 
 ::: {.column width="55%"}
 ::: {style="font-size: 1em; margin-top: 2em"}
-Resultados potenciais:
-
-\begin{equation} \label{eq-outcome-variable}
-Y_{i,t} = D_{i,t} \cdot Y_{i,t}(1) + (1 - D_{i,t}) \cdot Y_{i,t}(0)
-\end{equation}
-
 Efeito médio do tratamento nos tratados (ATT, na sigla em inglês):
 \begin{equation} 
 \label{eq-counterfactual}
@@ -294,7 +288,7 @@ Consiste em tomar a [diferença]{style="color:#FBFF0A"} entre a média do tratam
 ## Cronograma para 2/2024
 
 ::: {style="font-size: 1em; margin-top: 1em"}
-| Atividades | Ago | Set | Out | Nov | Dez |
+| Atividades | Jul | Ago | Set | Out | Nov |
 |------------|-----|-----|-----|-----|-----|
 | Estimativas dos modelos | X | X | X | | |
 | Análise de sensitividade | | X | X | X | |
