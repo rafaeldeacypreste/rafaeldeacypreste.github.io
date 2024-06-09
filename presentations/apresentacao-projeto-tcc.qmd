@@ -63,10 +63,10 @@ editor_options:
 
 ::: columns
 
-::: {.column width="40%"}
-::: {style="font-size: 0.8em"}
+::: {.column width="25%"}
+::: {style="font-size: 1em"}
 ::: {.nonincremental}
-![](img/formosa-para-todos.jpg){.relative top="250" left="10" width="500" height="500"}
+![](img/formosa-para-todos.jpg){.relative top="250" left="10" width="300" height="400"} 
 
 Formosa-GO (2021)
 :::
@@ -74,12 +74,15 @@ Formosa-GO (2021)
 :::
 
 
-::: {.column width="60%"}
+::: {.column width="25%"}
+![](img/luiziania-tz.jpg){.relative width="300" height="400"}
+
+Luziânia-GO (2023)
+:::
+
+::: {.column width="50%"}
 ::: {style="font-size: 0.8em"}
-![Tarifa Zero em Maricá-RJ](img/marica-tz.jpg){.relative top="250" left="10" width="500" height="280"} Maricá-RJ (2014)
-
-Luziânia-GO (2023)![Tarifa Zero em Luziânia-GO](img/luiziania-tz.jpg){.relative top="250" left="10" width="500" height="280"}
-
+![](img/plot_staggered.png){.relative top="0" left="0" width="1000" height="470"}
 :::
 :::
 
