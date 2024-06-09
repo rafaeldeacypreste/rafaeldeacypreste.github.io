@@ -2,56 +2,56 @@
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#motivação",
     "href": "presentations/apresentacao-projeto-tcc.html#motivação",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Motivação",
     "text": "Motivação\n\n\n\nAvaliação do Tarifa Zero: avaliação das experiências nacionais de Carolina Piazza (2017);\nImpacto na arrecadação: trata-se de uma política que pode ser custosa ao Município; e\nAvaliação causal: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais."
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#objetivos",
     "href": "presentations/apresentacao-projeto-tcc.html#objetivos",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Objetivos",
     "text": "Objetivos\n\n\n\nObjetivo geral: Avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal (ISS e outros).\n\n\n\nObjetivos específicos:\n1- Organizar o banco de dados de variáveis relacionadas a políticas de transporte;\n2- Identificar o modelo causal mais adequado para avaliar as implicações da Tarifa-Zero na arrecadação tributária municipal; e\n3- Comparar os municípios que adotaram o Tarifa-Zero, estabelecendo municípios que podem funcionar como contrafactual."
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#inferência-causal",
     "href": "presentations/apresentacao-projeto-tcc.html#inferência-causal",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Inferência causal",
-    "text": "Inferência causal\n\n\n\n\n\n\n\n\n\nO problema da inferência causal: contrafactual\n\n\nO que teria acontecido ao Município se não tivesse implementado a Tarifa-Zero?\n\nAlternativas: Angrist and Pischke (2009), Pearl and Mackenzie (2018), Callaway and Sant’Anna (2021), Roth et al. (2023)\n\n\n\n\n\n\n\nEfeito médio do tratamento nos tratados (ATT, na sigla em inglês): \\[\\begin{equation}\n\\label{eq-counterfactual}\n   \\tau_2 = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]\n\\end{equation}\\]"
+    "text": "Inferência causal\n\n\n\n\n\n\n\n\n\nO problema da inferência causal: contrafactual\n\n\nO que teria acontecido ao Município se não tivesse implementado a Tarifa-Zero?\n\nAlternativas: Angrist and Pischke (2009), Pearl and Mackenzie (2018), Callaway and Sant’Anna (2021), Roth et al. (2023)\n\n\n\n\n\n\n\nEfeito médio do tratamento nos tratados (ETT): \\[\\begin{equation}\n\\label{eq-counterfactual}\n   \\tau_2 = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]\n\\end{equation}\\]"
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#viés-de-seleção-e-variáveis-confundidoras",
     "href": "presentations/apresentacao-projeto-tcc.html#viés-de-seleção-e-variáveis-confundidoras",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Viés de seleção e variáveis confundidoras",
     "text": "Viés de seleção e variáveis confundidoras"
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#variáveis-de-interesse-fontes",
     "href": "presentations/apresentacao-projeto-tcc.html#variáveis-de-interesse-fontes",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Variáveis de interesse (fontes)",
-    "text": "Variáveis de interesse (fontes)\n\n\n\nSantini (2024): lista de municípios que adotaram o Tarifa-Zero;\nIPEA: dados de arrecadação tributária municipal;\nIBGE: variáveis socioeconômicas: população, tamanho dos municípios, população em idade ativa;\nMinistério dos Transportes: dados de transporte público e de frota veicular;\nMinistério do Trabalho e Emprego: dados do trabalho formal; e\nMinistério da Saúde: dados de saúde relacionados a mortalidade e morbidade no trânsito."
+    "text": "Variáveis de interesse (fontes)\n\n\n\nMunicípios que adotaram o Tarifa-Zero (Santini 2024);\nArrecadação tributária municipal (IPEA);\nVariáveis demográficas: população e tamanho dos municípios (IBGE);\nFrota veicular (Ministério dos Transportes);\nTrabalho formal (Ministério do Trabalho e Emprego); e\nMortalidade e morbidade no trânsito (Ministério da Saúde)."
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#diferenças-em-diferenças-diff-in-diff",
     "href": "presentations/apresentacao-projeto-tcc.html#diferenças-em-diferenças-diff-in-diff",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Diferenças-em-Diferenças (Diff-in-Diff)",
     "text": "Diferenças-em-Diferenças (Diff-in-Diff)\n\n\n\nConsiste em tomar a diferença entre a média do tratamento e do controle antes e depois da implementação da política e, depois, subtrair essas diferenças.\n\n\n\n\n\n\n\n\\[\\begin{equation} \\label{eq-did-estimator}\n\\begin{split}\n    \\tau_2 & = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1] \\\\\n     & = \\mathbb{E}[Y_{i,2} \\color{#FBFF0A}{-} Y_{i,1}| \\boldsymbol{X}, D_{i,2} = 1] \\color{#FBFF0A}{-} \\mathbb{E}[Y_{i,2} \\color{#FBFF0A}{-} Y_{i,1} | \\boldsymbol{X}, D_{i,2} = 0]\n\\end{split}\n\\end{equation}\\]"
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#resultados-parciais",
     "href": "presentations/apresentacao-projeto-tcc.html#resultados-parciais",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Resultados parciais",
-    "text": "Resultados parciais\n\n\n\n\n\n\n\nATT é a sigla em inglês para “efeito médio nos tratados”."
+    "text": "Resultados parciais"
   },
   {
     "objectID": "presentations/apresentacao-projeto-tcc.html#cronograma-para-22024",
     "href": "presentations/apresentacao-projeto-tcc.html#cronograma-para-22024",
-    "title": "Impact analysis of the Fare-Free program on public transport",
+    "title": "Análise de Impacto do Tarifa-Zero sobre a arrecadação tributária",
     "section": "Cronograma para 2/2024",
     "text": "Cronograma para 2/2024\n\n\n\n\nAtividades\nJul\nAgo\nSet\nOut\nNov\n\n\n\n\nEstimativas dos modelos\nX\nX\nX\n\n\n\n\nAnálise de sensitividade\n\nX\nX\nX\n\n\n\nComparação com outras análises de impacto\n\n\nX\nX\n\n\n\nSeção de metodologia\n\nX\nX\n\n\n\n\nSeção de resultados e discussões\n\n\nX\nX\n\n\n\nPublicação do modelo no Github\n\n\n\nX\n\n\n\nApresentação do trabalho\n\n\n\n\nX"
   },
