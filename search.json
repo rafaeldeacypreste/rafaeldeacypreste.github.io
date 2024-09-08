@@ -63,6 +63,55 @@
     "text": "Secondary topic\nRemembering and trying to not get mad. last windows chance"
   },
   {
+    "objectID": "publications/books.html",
+    "href": "publications/books.html",
+    "title": "Books and Chapters",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "publications/talks.html",
+    "href": "publications/talks.html",
+    "title": "Talks and Posters",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rafael de Acypreste",
+    "section": "",
+    "text": "I am PhD in Economics at the University of Brasília, Brazil. Undergrad student in Statistcs.\nThese are my personal notes on Statistics, Econometrics, Machine Learning and Policy Evaluation. I am also interested in inequality, taxation and disability rights.\nEu sou Doutor em Economia pela Universidade de Brasília. Graduando em Estatística.\nEstas são minhas notas pessoais sobre Estatística, Econometria, Aprendizado de Máquina e Avaliação de Políticas Públicas. Também me interesso por desigualdade, tributação e direitos das pessoas com deficiência."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Rafael de Acypreste",
+    "section": "Education",
+    "text": "Education\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Statistcs | Mar 2020 - present\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | PhD in Economics | Mar 2018 - Jan 2022\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | MSc in Law | Mar 2014 - Mar 2016\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Law | Mar 2008 - Mar 2013"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Rafael de Acypreste",
+    "section": "Experience",
+    "text": "Experience\nResearch and Statistcs Institute of Federal District (IPEDF, in Portuguese) | Data Scientist | Sept 2023 - present"
+  },
+  {
+    "objectID": "r-notes/r-notes-base.html",
+    "href": "r-notes/r-notes-base.html",
+    "title": "R notes",
+    "section": "",
+    "text": "In construction."
+  },
+  {
+    "objectID": "r-notes/r-notes-base.html#applications",
+    "href": "r-notes/r-notes-base.html#applications",
+    "title": "R notes",
+    "section": "Applications",
+    "text": "Applications\nIn construction"
+  },
+  {
     "objectID": "publications/papers.html",
     "href": "publications/papers.html",
     "title": "Papers",
@@ -91,53 +140,95 @@
     "text": "Law\nAcypreste, R. de e Costa, A. B. (2016) Ações de reintegração de posse contra o movimento dos trabalhadores sem teto: dicotomia entre propriedade e direito à moradia, Revista de Direito da Cidade, 8(4), p. 1825–1867. Go to Paper Download"
   },
   {
-    "objectID": "r-notes/r-notes-base.html",
-    "href": "r-notes/r-notes-base.html",
-    "title": "R notes",
-    "section": "",
-    "text": "In construction."
+    "objectID": "presentations/apresentacao-tcc.html#motivação-e-objetivo",
+    "href": "presentations/apresentacao-tcc.html#motivação-e-objetivo",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Motivação e objetivo",
+    "text": "Motivação e objetivo\n\n\n\nImpacto na arrecadação: trata-se de uma política que pode ser custosa ao Município;\nAvaliação causal: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais; e\nObjetivo geral: avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal do Imposto sobre Serviços."
   },
   {
-    "objectID": "r-notes/r-notes-base.html#applications",
-    "href": "r-notes/r-notes-base.html#applications",
-    "title": "R notes",
-    "section": "Applications",
-    "text": "Applications\nIn construction"
+    "objectID": "presentations/apresentacao-tcc.html#inferência-causal",
+    "href": "presentations/apresentacao-tcc.html#inferência-causal",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Inferência causal",
+    "text": "Inferência causal\n\n\n\n\n\n\n\n\n\nO problema da inferência causal: contrafactual\n\n\nO que teria acontecido ao Município se não tivesse implementado a Tarifa-Zero?\n\nAlternativas: Angrist and Pischke (2009), Pearl and Mackenzie (2018), Callaway and Sant’Anna (2021), Roth et al. (2023)\n\n\n\n\n\n\n\nResultados potenciais:\n\\[\\begin{equation} \\label{eq-outcome-variable}\nY_{i,t} = D_{i,t} \\cdot Y_{i,t}(1) + (1 - D_{i,t}) \\cdot Y_{i,t}(0)\n\\end{equation}\\]\nEfeito médio do tratamento nos tratados: \\[\\begin{equation}\n\\label{eq-counterfactual}\n   \\tau_2 = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]\n\\end{equation}\\]"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rafael de Acypreste",
-    "section": "",
-    "text": "I am PhD in Economics at the University of Brasília, Brazil. Undergrad student in Statistcs.\nThese are my personal notes on Statistics, Econometrics, Machine Learning and Policy Evaluation. I am also interested in inequality, taxation and disability rights.\nEu sou Doutor em Economia pela Universidade de Brasília. Graduando em Estatística.\nEstas são minhas notas pessoais sobre Estatística, Econometria, Aprendizado de Máquina e Avaliação de Políticas Públicas. Também me interesso por desigualdade, tributação e direitos das pessoas com deficiência."
+    "objectID": "presentations/apresentacao-tcc.html#viés-de-seleção-e-variáveis-confundidoras",
+    "href": "presentations/apresentacao-tcc.html#viés-de-seleção-e-variáveis-confundidoras",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Viés de seleção e variáveis confundidoras",
+    "text": "Viés de seleção e variáveis confundidoras"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Rafael de Acypreste",
-    "section": "Education",
-    "text": "Education\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Statistcs | Mar 2020 - present\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | PhD in Economics | Mar 2018 - Jan 2022\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | MSc in Law | Mar 2014 - Mar 2016\nUniversity of Brasília (UnB) | Distrito Federal, Brazil | BSc in Law | Mar 2008 - Mar 2013"
+    "objectID": "presentations/apresentacao-tcc.html#viés-de-seleção-tratado-no-grafo",
+    "href": "presentations/apresentacao-tcc.html#viés-de-seleção-tratado-no-grafo",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Viés de seleção (tratado no Grafo)",
+    "text": "Viés de seleção (tratado no Grafo)\nViés de seleção ocorre quando a decisão de adoção do tratamento \\(D_{i,t}\\) não é aleatória e há, portanto, co-variáveis que influenciam os valores observados.\n\n\\[\\begin{equation}\n\\begin{split}\n      \\tau_2 = \\quad & \\mathbb{E}[Y_{i,2}(1)| D_{i,2} = 1] - \\mathbb{E}[Y_{i,2}(0) | D_{i,2} = 0] \\\\\n      & + \\underbrace{\\mathbb{E}[Y_{i,2}(0) | D_{i,2} = 0] - \\mathbb{E}[Y_{i,2}(0) | D_{i,2} = 1]}_{\\text{viés de seleção}}\n\\end{split}\n\\end{equation}\\]"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Rafael de Acypreste",
-    "section": "Experience",
-    "text": "Experience\nResearch and Statistcs Institute of Federal District (IPEDF, in Portuguese) | Data Scientist | Sept 2023 - present"
+    "objectID": "presentations/apresentacao-tcc.html#variáveis-de-interesse-fontes",
+    "href": "presentations/apresentacao-tcc.html#variáveis-de-interesse-fontes",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Variáveis de interesse (fontes)",
+    "text": "Variáveis de interesse (fontes)\n\n\n\nSantini (2024): lista de municípios que adotaram o Tarifa-Zero;\nIPEA: dados de arrecadação tributária municipal; e\nIBGE: variáveis socioeconômicas: PIB, população e tamanho dos municípios.\n\n\n\nHá outras variáveis coletadas, mas que não foram utilizadas no trabalho, como dados de emprego, mortalidade no trânsito e frota de veículos."
   },
   {
-    "objectID": "publications/talks.html",
-    "href": "publications/talks.html",
-    "title": "Talks and Posters",
-    "section": "",
-    "text": "In construction."
+    "objectID": "presentations/apresentacao-tcc.html#diferenças-em-diferenças-did",
+    "href": "presentations/apresentacao-tcc.html#diferenças-em-diferenças-did",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Diferenças-em-Diferenças (DiD)",
+    "text": "Diferenças-em-Diferenças (DiD)\n\n\n\nConsiste em tomar a diferença entre a média do tratamento e do controle antes e depois da implementação da política e, depois, subtrair essas diferenças.\n\n\n\n\n\n\n\n\\[\\begin{equation} \\label{eq-did-estimator}\n\\begin{split}\n    \\tau_2 & = \\mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1] \\\\\n     & = \\mathbb{E}[Y_{i,2} \\color{#FBFF0A}{-} Y_{i,1}| \\boldsymbol{X}, D_{i,2} = 1] \\color{#FBFF0A}{-} \\mathbb{E}[Y_{i,2} \\color{#FBFF0A}{-} Y_{i,1} | \\boldsymbol{X}, D_{i,2} = 0].\n\\end{split}\n\\end{equation}\\]"
   },
   {
-    "objectID": "publications/books.html",
-    "href": "publications/books.html",
-    "title": "Books and Chapters",
-    "section": "",
-    "text": "In construction."
+    "objectID": "presentations/apresentacao-tcc.html#estimador-did-duplamente-robusto",
+    "href": "presentations/apresentacao-tcc.html#estimador-did-duplamente-robusto",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Estimador DiD duplamente robusto",
+    "text": "Estimador DiD duplamente robusto\n\nTrata-se de uma extensão do estimador DiD que permite a inclusão de covariáveis e exige que apenas um dos modelos de regressão seja corretamente especificado.\n\n\\[\\begin{equation}\n\\label{eq-dr-identification}\n    ATT(g, t) = \\mathbb{E} \\left[ \\left(\\frac{G_g}{\\mathbb{E}[G_g]} - \\dfrac{ \\dfrac{p_g(\\boldsymbol{X}) C}{1 - p_g(\\boldsymbol{X})}     }{\\mathbb{E} \\left[\\dfrac{p_g(\\boldsymbol{X}) C}{1 - p_g(\\boldsymbol{X})} \\right]} \\right) (Y_t - Y_{g-1} - m_{g,t}(\\boldsymbol{X}) ) \\right].\n\\end{equation}\\]"
+  },
+  {
+    "objectID": "presentations/apresentacao-tcc.html#método",
+    "href": "presentations/apresentacao-tcc.html#método",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Método",
+    "text": "Método\n\n\n\nAs variáveis foram coletadas de 2003 a 2019 e avaliadas em escala logarítmica, dada a elevada heterogeneidade dos minicípios;\nUtilizou-se o modelo de diferenças-em-diferenças duplamente robusto com covariáveis;\nA aplicação dos modelos e os gráficos de resultados foram realizadas com o pacote DiD (linguagem R);\nComo a quantidade de municípios em cada grupo é reduzido, foram analisados apenas resultados agregados; e\nA análise de sensibilidade foi realizada com o auxílio do pacote DRDID (linguagem R)."
+  },
+  {
+    "objectID": "presentations/apresentacao-tcc.html#análise-exploratória",
+    "href": "presentations/apresentacao-tcc.html#análise-exploratória",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Análise Exploratória",
+    "text": "Análise Exploratória"
+  },
+  {
+    "objectID": "presentations/apresentacao-tcc.html#principais-resultados",
+    "href": "presentations/apresentacao-tcc.html#principais-resultados",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Principais resultados",
+    "text": "Principais resultados"
+  },
+  {
+    "objectID": "presentations/apresentacao-tcc.html#análise-de-sensibilidade-dos-resultados",
+    "href": "presentations/apresentacao-tcc.html#análise-de-sensibilidade-dos-resultados",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Análise de sensibilidade dos resultados",
+    "text": "Análise de sensibilidade dos resultados\n\n\n\nForam testados modelos sem covariáveis e modelos com outros conjuntos de covariáveis, sem alteração significativa dos resultados;\nFoi realizado um estudo de evento e, ao menos antes de receber o tratamento, os municípios pareciam seguir tendências paralelas;\nNão foram encontradas evidências de que os pressupostos do modelo foram violados."
+  },
+  {
+    "objectID": "presentations/apresentacao-tcc.html#discussão",
+    "href": "presentations/apresentacao-tcc.html#discussão",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Discussão",
+    "text": "Discussão\n\n\n\nO efeito médio sobre os tratados a partir da agregação por grupos foi de [3,6%; 16,6%], com confiança de 95%;\nJá o efeito dinâmico para o conjunto de municípios com, no mínimo 5 anos de adoção foi de [0,2%; 30,4%], também com confiança de 95%; e\nAs demais métricas também indicaram efeitos médios positivos sobre os tratados."
+  },
+  {
+    "objectID": "presentations/apresentacao-tcc.html#conclusões",
+    "href": "presentations/apresentacao-tcc.html#conclusões",
+    "title": "Impact Analysis of Fare-Free Public Transportation Programs",
+    "section": "Conclusões",
+    "text": "Conclusões\n\n\n\nOs dados oferecem suporte à hipótese de que a Tarifa-Zero tem impacto positivo na arrecadação tributária municipal;\nEntretanto, os resultados devem ser interpretados com cautela, dado o pequeno número de municípios que adotaram a política; e\nEm especial, as razões para a adoção da Tarifa-Zero podem ser diferentes entre os municípios, o que pode influenciar os resultados. Portanto, devem ser avaliadas em estudos futuros."
   },
   {
     "objectID": "presentations/avaliando-graficos.html#gráfico-eficiente",
