@@ -1,0 +1,361 @@
+---
+title: "Impact Analysis of Fare-Free Public Transportation Programs"
+subtitle: "Trabalho de Conclusão de Curso"
+author:
+  - name: Rafael de Acypreste
+    affiliation: 
+      - name: Estudante
+    url: https://rafaeldeacypreste.github.io/
+  - name: Thais Carvalho
+    affiliation: 
+      - name: Orientadora
+format:
+  revealjs: 
+    embed-resources: true
+    self-contained: true
+    slide-number: true
+    preview-links: auto
+    width: 1600
+    heigth: 900
+    scrollable: true
+    theme: black
+    logo: img/as_comp_CONT_NEG.png
+    css: styles.css
+    footer: Departamento de Estatística
+resources:
+  - demo.pdf
+bibliography: bibliography-ci.bib
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+
+---
+
+
+
+::: columns
+::: {.column width="50%"}
+
+
+::: {style="font-size: 1.5em"}
+
+::: {.callout-warning}
+## Tarifa Zero
+É um modelo de financiamento do transporte público coletivo que é financiado por [outras fontes de receita]{style="color: #FBFF0A"}, como impostos, taxas e pedágios, em vez de tarifas pagas pelos(as) passageiros(as).
+:::
+
+:::
+:::
+
+::: {.column width="50%"}
+![](img/mapa-tz.png){.relative top="250" left="10" width="600" height="550"}
+
+[108 municípios em maio de 2024](https://x.com/_danielsantini/status/1790749556650528832)
+:::
+:::
+
+
+
+---
+
+::: columns
+
+::: {.column width="35%"}
+::: {style="font-size: 0.8em"}
+::: {.nonincremental}
+![](img/formosa-para-todos.jpg){.relative top="250" left="10" width="500" height="500"}
+Formosa (2021)
+:::
+:::
+:::
+
+
+::: {.column width="65%"}
+::: {style="font-size: 0.8em"}
+![Tarifa Zero em Maricá-RJ](img/marica-tz.jpg){.relative top="250" left="10" width="500" height="280"} Maricá-RJ (2014)
+
+Luziânia-GO (2023)![Tarifa Zero em Luziânia-GO](img/luiziania-tz.jpg){.relative top="250" left="10" width="500" height="280"}
+
+:::
+:::
+
+:::
+
+
+
+
+## Motivação e objetivo
+
+
+::: {style="font-size: 1.15em"}
+::: incremental
+- [Impacto na arrecadação]{style="color:#FBFF0A"}: trata-se de uma política que pode ser custosa ao Município;
+- [Avaliação causal]{style="color:#FBFF0A"}: como não é possível fazer experimentos, é necessário utilizar métodos de avaliação causal para estudos observacionais; e
+- [Objetivo geral]{style="color:#FBFF0A"}: avaliar o impacto da política de Tarifa-Zero na arrecadação tributária municipal do Imposto sobre Serviços.
+:::
+::: 
+
+
+
+
+
+
+
+## Inferência causal
+
+::: columns
+::: {.column width="45%"}
+
+::: {style="font-size: 1.2em"}
+::: {.callout-note}
+## O problema da inferência causal: [contrafactual]{style="color: #7C0303"}
+O que teria acontecido ao Município se não tivesse implementado a Tarifa-Zero? 
+
+::: {style="font-size: 0.7em"}
+Alternativas: @mostly_harmless_econometrics, @PearlMackenzie18, @CALLAWAY2021200, @roth_whats_2023
+:::
+:::
+
+:::
+:::
+
+
+::: {.column width="55%"}
+::: {style="font-size: 1em; margin-top: 2em"}
+Resultados potenciais:
+
+\begin{equation} \label{eq-outcome-variable}
+Y_{i,t} = D_{i,t} \cdot Y_{i,t}(1) + (1 - D_{i,t}) \cdot Y_{i,t}(0)
+\end{equation}
+
+Efeito médio do tratamento nos tratados:
+\begin{equation} 
+\label{eq-counterfactual}
+   \tau_2 = \mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1]
+\end{equation}
+:::
+:::
+:::
+
+
+## Viés de seleção e variáveis confundidoras
+
+
+
+```{r}
+#| results: "hide"
+#| fig-align: center
+#| out-width: 200%
+
+
+library(ggdag)
+library(ggplot2)
+
+tidy_ggdag <- dagify(
+  ISS ~ TZ + PIB + Pop,
+  TZ ~ PIB + Pop + Area,
+  Emp ~ ISS + TZ,
+  PIB ~ Area,
+  exposure = "TZ",
+  outcome = "ISS",
+labels = c(ISS = "Arrecadação\n de ISS",
+           TZ = "Tarifa-Zero",
+           PIB = "PIB",
+           Pop = "População",
+           Area = "Área do\n Município",
+           Emp = "Empregos\n formais"
+           #Tarifa = "Tarifa (R$)"
+           )
+) |> 
+  tidy_dagitty(seed = 245)
+
+# ggdag(tidy_ggdag,
+#       use_labels = "label",
+#       text = FALSE) +
+# geom_dag_edges_fan() +
+# theme_dag()
+# 
+# 
+# ggdag_dseparated(tidy_ggdag,
+# use_labels = "label",
+# text = FALSE)
+# 
+# 
+# ggdag_adjustment_set(tidy_ggdag, node_size = 14) +
+#   theme(legend.position = "bottom")
+
+ggdag_parents(tidy_ggdag, "TZ",
+      use_labels = "label",
+text_size = 5,
+      text = FALSE) +
+  # theme(legend.position = "bottom") +
+  theme_dag_grey() +
+  theme(legend.position = "none")
+
+
+```
+
+
+## Viés de seleção (tratado no Grafo)
+
+Viés de seleção ocorre quando a decisão de adoção do tratamento $D_{i,t}$ não é aleatória e há, portanto, co-variáveis que influenciam os valores observados.
+
+::: {style="font-size: 1.1em"}
+\begin{equation} 
+\begin{split}
+      \tau_2 = \quad & \mathbb{E}[Y_{i,2}(1)| D_{i,2} = 1] - \mathbb{E}[Y_{i,2}(0) | D_{i,2} = 0] \\
+      & + \underbrace{\mathbb{E}[Y_{i,2}(0) | D_{i,2} = 0] - \mathbb{E}[Y_{i,2}(0) | D_{i,2} = 1]}_{\text{viés de seleção}}
+\end{split}
+\end{equation} 
+:::
+
+## Variáveis de interesse (fontes)
+
+::: {style="font-size: 1.2em; margin-top: 1.3em"}
+::: nonincremental
+- @Santini-FFPT-2024: lista de municípios que adotaram o Tarifa-Zero;
+- [IPEA]{style="text-decoration: underline"}: dados de arrecadação tributária municipal; e
+- [IBGE]{style="text-decoration: underline"}: variáveis socioeconômicas: PIB, população e tamanho dos municípios.
+:::
+:::
+
+Há outras variáveis coletadas, mas que não foram utilizadas no trabalho, como dados de emprego, mortalidade no trânsito e frota de veículos.
+
+
+## Diferenças-em-Diferenças (DiD)
+
+
+
+::: columns
+::: {.column width="70%"}
+::: {style="font-size: 1em; margin-top: 1.5em"}
+Consiste em tomar a [diferença]{style="color:#FBFF0A"} entre a média do tratamento e do controle antes e depois da implementação da política e, depois, [subtrair]{style="color:#FBFF0A"} essas diferenças.
+:::
+:::
+
+
+
+
+::: {.column width="30%"}
+::: {style="font-size: 1em; margin-top: 1em"}
+![](img/did-logo.png){.relative top="250" left="10" width="500" height="280"} 
+:::
+:::
+:::
+
+
+
+\begin{equation} \label{eq-did-estimator}
+\begin{split}
+    \tau_2 & = \mathbb{E}[Y_{i,2}(1) - Y_{i,2}(0) | D_{i,2} = 1] \\
+     & = \mathbb{E}[Y_{i,2} \color{#FBFF0A}{-} Y_{i,1}| \boldsymbol{X}, D_{i,2} = 1] \color{#FBFF0A}{-} \mathbb{E}[Y_{i,2} \color{#FBFF0A}{-} Y_{i,1} | \boldsymbol{X}, D_{i,2} = 0].
+\end{split}
+\end{equation}
+
+## Estimador DiD duplamente robusto
+
+::: {style="font-size: 1em; margin-top: 1.5em; margin-left: 2em"}
+Trata-se de uma extensão do estimador DiD que permite a inclusão de covariáveis e exige que [apenas um dos modelos de regressão seja corretamente especificado]{style="color:#FBFF0A"}.
+:::
+
+\begin{equation}
+\label{eq-dr-identification}
+    ATT(g, t) = \mathbb{E} \left[ \left(\frac{G_g}{\mathbb{E}[G_g]} - \dfrac{ \dfrac{p_g(\boldsymbol{X}) C}{1 - p_g(\boldsymbol{X})}     }{\mathbb{E} \left[\dfrac{p_g(\boldsymbol{X}) C}{1 - p_g(\boldsymbol{X})} \right]} \right) (Y_t - Y_{g-1} - m_{g,t}(\boldsymbol{X}) ) \right].
+\end{equation}
+
+
+## Método
+
+
+::: {style="font-size: 0.9em"}
+::: nonincremental
+- As variáveis foram coletadas de [2003 a 2019]{style="color:#FBFF0A"} e avaliadas em escala logarítmica, dada a elevada heterogeneidade dos minicípios;
+- Utilizou-se o modelo de [diferenças-em-diferenças duplamente robusto com covariáveis]{style="color:#FBFF0A"};
+- A aplicação dos modelos e os gráficos de resultados foram realizadas com o pacote `DiD` (linguagem R);
+- Como a quantidade de municípios em cada grupo é reduzido, foram analisados apenas resultados agregados; e 
+- A análise de sensibilidade foi realizada com o auxílio do pacote `DRDID` (linguagem R).
+:::
+:::
+
+
+
+
+## Análise Exploratória
+
+
+
+
+::: columns
+::: {.column width="50%"}
+![](img/plot_staggered.png){.relative top="0" left="0" height="520"}
+:::
+
+
+::: {.column width="50%"}
+![](img/density_plot_response.png){.relative top="0" left="0" height="520"}
+:::
+:::
+
+
+
+## Principais resultados
+
+
+
+::: columns
+::: {.column width="55%"}
+![](img/fig-gdp-pop-group.png){.relative top="0" left="0" width="1000" height="500"}
+:::
+
+
+::: {.column width="45%"}
+![](img/plot_did_gdp_dyn_bal.png){.relative top="0" left="0" width="1000" height="500"}
+:::
+:::
+
+## Análise de sensibilidade dos resultados
+
+
+::: {style="font-size: 1.2em; margin-top: 1.5em"}
+::: nonincremental
+- Foram testados modelos sem covariáveis e modelos com outros conjuntos de covariáveis, [sem alteração significativa dos resultados]{style="color:#FBFF0A"};
+- Foi realizado um estudo de evento e, ao menos antes de receber o tratamento, os municípios pareciam seguir tendências paralelas;
+- Não foram encontradas evidências de que os pressupostos do modelo foram violados.
+:::
+:::
+
+
+## Discussão
+
+::: {style="font-size: 1.15em; margin-top: 1.1em"}
+::: incremental
+- O efeito médio sobre os tratados a partir da agregação por grupos foi de [[3,6%; 16,6%]]{style="color:#FBFF0A"}, com confiança de 95%;
+- Já o efeito dinâmico para o conjunto de municípios com, no mínimo 5 anos de adoção foi de [[0,2%; 30,4%]]{style="color:#FBFF0A"}, também com confiança de 95%; e
+- As demais métricas também indicaram efeitos médios positivos sobre os tratados.
+:::
+:::
+
+
+
+## Conclusões
+
+
+::: {style="font-size: 1.em; margin-top: 1em"}
+::: incremental
+- Os dados oferecem suporte à hipótese de que a [Tarifa-Zero tem impacto positivo na arrecadação tributária municipal]{style="color:#FBFF0A"};
+- Entretanto, os resultados devem ser interpretados com cautela, dado o pequeno número de municípios que adotaram a política; e
+- Em especial, as razões para a adoção da Tarifa-Zero podem ser diferentes entre os municípios, o que pode influenciar os resultados. Portanto, devem ser avaliadas em estudos futuros.
+:::
+:::
+
+
+
+
+# Referências
+
+::: {style="font-size: 1.5em; margin-top: 1em"}
+
+::: 
